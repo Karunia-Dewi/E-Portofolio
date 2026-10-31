@@ -1,0 +1,983 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Siklus 1 Praktik Pengalaman Lapangan (PPL) Mandiri - Portofolio Seminar PPG 2026 Siti Karunia Dewi. Meliputi Perencanaan Pembelajaran, Materi Pembelajaran, Video Praktik Mengajar, dan Media Pembelajaran Berpikir Komputasional Fase D SMPN 18 Malang.">
+  <meta name="keywords"
+    content="Siklus 1 PPL Mandiri, Berpikir Komputasional, Optimasi Penjadwalan, Representasi Data, Struktur Data, PPG Informatika, Universitas Negeri Malang, Siti Karunia Dewi">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>Siklus 1 — Praktik Pengalaman Lapangan Mandiri | Siti Karunia Dewi</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle active" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item active">
+              <i class="fas fa-school"></i> PPL Mandiri Hub
+            </a>
+            <a href="ppl-mandiri-siklus1.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 1
+            </a>
+            <a href="ppl-mandiri-siklus2.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 2
+            </a>
+            <a href="ppl-mandiri-siklus3.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 3
+            </a>
+            <a href="ppl-mandiri-siklus4.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 4
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Drawer Toggler -->
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT AREA                          -->
+  <!-- ========================================== -->
+  <main class="page-content">
+    <section class="page-section">
+      <div class="container">
+
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-nav">
+          <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="ppl.html"><i class="fas fa-chalkboard-user"></i> PPL</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="ppl-mandiri.html">PPL Mandiri</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <span class="current">Siklus 1</span>
+        </div>
+
+        <!-- Detail Header Card -->
+        <div class="detail-header-card">
+          <span class="section-tag"><i class="fas fa-rotate"></i> Siklus 1 — Praktik Lapangan Mandiri </span>
+          <h1 class="section-title" style="font-size: 2.2rem; margin-top: 10px; margin-bottom: 12px;">
+            Siklus 1 — Praktik Pengalaman Lapangan Mandiri
+          </h1>
+          <p class="section-subtitle"
+            style="font-size: 1.05rem; max-width: 1100px; line-height: 1.7; text-align: justify;">
+            Dokumentasi komprehensif pelaksanaan pengajaran mandiri Siklus 1 pada mata pelajaran <strong>Informatika
+              Fase D (Kelas VII-D) SMP Negeri 18 Malang</strong>.
+            Fokus pembelajaran pada siklus ini diarahkan pada penguasaan konsep <strong>Berpikir Komputasional
+              (Computational Thinking)</strong> yang mencakup <strong>Optimasi Penjadwalan</strong>,
+            <strong>Representasi Data</strong>, dan <strong>Struktur Data Sederhana (List, Stack, Queue)</strong>
+            berbasis model <em>Problem Based Learning (PBL)</em> dan pendekatan pembelajaran bermakna (<em>Deep
+              Learning</em>).
+          </p>
+
+          <div class="detail-meta-chips">
+            <div class="meta-chip">
+              <i class="fas fa-user-tie"></i>
+              <span>Penyusun: Siti Karunia Dewi</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-school"></i>
+              <span>SMP Negeri 18 Malang</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-users"></i>
+              <span>Kelas / Fase: VII-D / Fase D</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-brain"></i>
+              <span>Bab 1: Berpikir Komputasional</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-chalkboard-user"></i>
+              <span>Model: PBL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- SUBMENU / TAB NAVIGASI 4 KATEGORI SIKLUS 1   -->
+        <!-- ============================================ -->
+        <nav class="cycle-submenu-nav" aria-label="Navigasi Kategori Siklus 1">
+          <a href="#perencanaan" class="cycle-submenu-link active">
+            <i class="fas fa-clipboard-list"></i> 1. Perencanaan Pembelajaran
+          </a>
+          <a href="#materi" class="cycle-submenu-link">
+            <i class="fas fa-book-open"></i> 2. Materi Pembelajaran
+          </a>
+          <a href="#video" class="cycle-submenu-link">
+            <i class="fas fa-video"></i> 3. Video Praktik Mengajar
+          </a>
+          <a href="#media" class="cycle-submenu-link">
+            <i class="fas fa-cubes"></i> 4. Media Pembelajaran
+          </a>
+        </nav>
+
+        <!-- ======================================================== -->
+        <!-- 3.1 PERENCANAAN PEMBELAJARAN SIKLUS 1                    -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="perencanaan" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-clipboard-list"></i> 1. Perencanaan Pembelajaran Siklus 1
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Rancangan modul ajar Kurikulum Merdeka dan perangkat pembelajaran Siklus 1 yang memadukan capaian
+                berpikir komputasional, sintaks Problem Based Learning, dan integrasi pembelajaran sosial emosional.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-file-shield"></i> 3 Modul Ajar + 2 RPP Lesson Study
+            </span>
+          </div>
+
+          <!-- Grid Berkas RPP / Modul Ajar Siklus 1 -->
+          <div class="highlights-bar"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; margin-bottom: 24px;">
+
+            <!-- Modul 1.1 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%201/Pertemuan%201/RPP_Optimasi%20Penjadwalan_7D.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Pertemuan 1 — Optimasi Penjadwalan</h3>
+                <p>Modul Ajar Berpikir Komputasional Kelas 7D • 383 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Modul 1.2 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%201/Pertemuan%202/RPP_%20Representasi%20Data_7D.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Pertemuan 2 — Representasi Data</h3>
+                <p>Modul Ajar Pengorganisasian Data Kelas 7D • 392 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Modul 1.3 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%201/Pertemuan%203/RPP_%20Struktur%20Data_7D.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Pertemuan 3 — Struktur Data</h3>
+                <p>Modul Ajar List, Queue &amp; Stack Kelas 7D • 451 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Pendukung: RPP Lesson Study 1 (Algoritma) -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Lesson%20Study/Pertemuan%201/RPP%20Lesson%20Study%20_Algoritma.pdf"
+              target="_blank" class="highlight-card"
+              style="text-decoration: none; border-left: 3px solid var(--accent-gold);">
+              <div class="highlight-icon"><i class="fas fa-users-gear"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Lesson Study 1 — Algoritma</h3>
+                <p>Perencanaan Kolaboratif Sejawat (Pertemuan 1) • 719 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Pendukung: RPP Lesson Study 2 (Optimasi Penjadwalan) -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Lesson%20Study/Pertemuan%202/RPP_%20Optimasi%20Penjadwalan.pdf"
+              target="_blank" class="highlight-card"
+              style="text-decoration: none; border-left: 3px solid var(--accent-gold);">
+              <div class="highlight-icon"><i class="fas fa-users-gear"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Lesson Study 2 — Optimasi Penjadwalan</h3>
+                <p>Perencanaan Kolaboratif Sejawat (Pertemuan 2) • 825 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+
+          <!-- Analisis Artefak Produk Perencanaan Pembelajaran Siklus 1 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Perencanaan Pembelajaran
+                (Siklus 1)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Telaah Pedagogis 6
+                Dimensi</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <!-- Point 1 -->
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bullseye"></i> 1. Kesesuaian Tujuan dengan CP &amp; TP</h4>
+                <p>
+                  Tujuan pembelajaran pada Siklus 1 diturunkan secara presisi dari Capaian Pembelajaran (CP) Informatika
+                  Elemen Berpikir Komputasional (BK) Fase D. Murid diarahkan untuk mampu menerapkan berpikir
+                  komputasional dalam menyelesaikan masalah sehari-hari melalui dekomposisi masalah penjadwalan,
+                  penyajian representasi data yang sistematis, serta pemahaman prinsip struktur data sederhana
+                  (antrean/FIFO dan tumpukan/LIFO).
+                </p>
+              </div>
+
+              <!-- Point 2 -->
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-shapes"></i> 2. Kesesuaian Model, Metode &amp; Pendekatan</h4>
+                <p>
+                  Perangkat menggunakan model <strong>Problem Based Learning (PBL)</strong> dengan metode diskusi
+                  terarah, simulasi permainan peran, dan penyelesaian studi kasus nyata. Pendekatan <em>Deep
+                    Learning</em> dan scientific diterapkan agar siswa tidak sekadar menghafal definisi, melainkan
+                  mengonstruksi pemahaman melalui tahapan analisis kendala waktu, perbandingan alternatif solusi, dan
+                  penentuan prioritas logis.
+                </p>
+              </div>
+
+              <!-- Point 3 -->
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-user-gear"></i> 3. Prinsip Kurikulum Merdeka &amp; Student-Centered</h4>
+                <p>
+                  Rancangan berpusat penuh pada murid melalui skenario kerja kolaboratif kelompok heterogen. Guru
+                  bertindak sebagai fasilitator yang mengarahkan penyelidikan. Pada materi Struktur Data, perencanaan
+                  mengintegrasikan Kompetensi Sosial Emosional (KSE) melalui teknik STOP untuk memulihkan fokus belajar,
+                  pembagian peran kerja yang adil, dan latihan pengambilan keputusan yang bertanggung jawab.
+                </p>
+              </div>
+
+              <!-- Point 4 -->
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-clipboard-check"></i> 4. Keselarasan Rancangan Asesmen</h4>
+                <p>
+                  Asesmen dirancang secara holistik mencakup asesmen diagnostik non-kognitif, asesmen formatif selama
+                  proses belajar menggunakan E-LKPD Wizer.me dan kartu tantangan, serta rubrik observasi sikap Profil
+                  Pelajar Pancasila (Gotong Royong dan Bernalar Kritis). Kriteria ketercapaian tujuan pembelajaran
+                  (KKTP) disusun dengan deskriptor yang jelas dan terukur.
+                </p>
+              </div>
+
+              <!-- Point 5 -->
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-scale-balanced"></i> 5. Kekuatan Produk, Kendala &amp; Rekomendasi Perbaikan</h4>
+                <p>
+                  <strong>Kekuatan:</strong> Modul menyajikan konteks masalah yang sangat dekat dengan realitas murid
+                  (antrean kantin sekolah, jadwal harian belajar, tumpukan buku di meja), dilengkapi lembar kerja
+                  interaktif yang memandu langkah demi langkah.
+                  <br>
+                  <strong>Kendala &amp; Keterbatasan:</strong> Alokasi waktu pengerjaan studi kasus penjadwalan pada RPP
+                  awal dinilai terlalu singkat bagi kelompok yang kemampuan kalkulasi prioritasnya belum matang.
+                  <br>
+                  <strong>Perbaikan yang Dilakukan:</strong> Menambahkan tabel pembantu (scaffolding matrix) pada LKPD
+                  untuk mempermudah pemetaan durasi kegiatan dan menyederhanakan jumlah variabel prioritas sehingga
+                  waktu diskusi kelompok menjadi lebih proporsional.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.2 MATERI PEMBELAJARAN SIKLUS 1                         -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="materi" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-book-open"></i> 2. Materi Pembelajaran Siklus 1
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Bahan ajar konseptual, materi presentasi visual, dan dokumentasi foto suasana kegiatan belajar mengajar
+                (KBM) nyata di kelas 7D SMP Negeri 18 Malang.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-layer-group"></i> 3 Dokumen Materi &amp; Dokumentasi Kelas
+            </span>
+          </div>
+
+          <!-- Grid Berkas Materi Siklus 1 -->
+          <div class="highlights-bar"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; margin-bottom: 24px;">
+
+            <!-- Materi 1.1 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%201/Pertemuan%201/Materi%20Optimalisasi%20Penjadwalan.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>Materi Optimasi Penjadwalan</h3>
+                <p>Bahan Bacaan &amp; Studi Kasus Pertemuan 1 • 412 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Materi 1.2 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%201/Pertemuan%202/Materi%20Representasi%20Data%20Kelas%20VIID.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>Materi Representasi Data</h3>
+                <p>Bahan Ajar Diagram, Tabel &amp; Piktogram • 430 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Materi 1.3 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%201/Pertemuan%203/Presentasi%20Materi%20%20Struktur%20Data.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-powerpoint"></i></div>
+              <div class="highlight-info">
+                <h3>Presentasi Struktur Data</h3>
+                <p>Slide Visual List, Stack &amp; Queue • 1.2 MB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+
+          <!-- Galeri Foto Dokumentasi Penerapan Materi Siklus 1 di Kelas 7D -->
+          <div style="margin-bottom: 24px;">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+              <h4
+                style="font-size: 1.05rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-camera"></i> Dokumentasi Penerapan Materi di Kelas 7D (Siklus 1)
+              </h4>
+              <span class="meta-chip"
+                style="font-size: 0.8rem; background: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+                Aktivitas Nyata Peserta Didik
+              </span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
+              <!-- Dok 1 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%201.jpeg" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%201.jpeg"
+                      alt="Scan Barcode Tugas Interaktif" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-qrcode" style="color: var(--primary-army); margin-right: 6px;"></i> Scan
+                    Barcode LKPD Digital</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%201.jpeg" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 2 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%202.jpeg" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%202.jpeg"
+                      alt="Pembagian LKPD & Bimbingan" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-hand-holding-hand" style="color: var(--primary-army); margin-right: 6px;"></i>
+                    Pengarahan &amp; Diskusi Murid</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%202.jpeg" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 3 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%203.png" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%203.png"
+                      alt="Diskusi Kelompok Aktif" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-users" style="color: var(--primary-army); margin-right: 6px;"></i> Penguatan
+                    konsep materi</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%203.png" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 5 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%205.jpeg" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%205.jpeg"
+                      alt="Pendampingan Belajar Siswa" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-chalkboard-user" style="color: var(--primary-army); margin-right: 6px;"></i>
+                    Siswa mencatat materi</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%205.jpeg" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Analisis Artefak Produk Materi Pembelajaran Siklus 1 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Materi Pembelajaran (Siklus
+                1)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Kajian Substansi &amp;
+                Didaktik</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-layer-group"></i> 1. Ketepatan &amp; Kedalaman Materi</h4>
+                <p>
+                  Materi ajar menyajikan esensi Berpikir Komputasional secara berjenjang: dimulai dari pemahaman logika
+                  optimasi waktu kegiatan harian, dilanjutkan pemodelan representasi data tabel-diagram, hingga konsep
+                  abstraksi struktur data (List, Stack/tumpukan LIFO, dan Queue/antrean FIFO) yang disederhanakan tanpa
+                  sintaks koding yang rumit namun tetap mempertahankan ketepatan konsep ilmiah informatika.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-graduation-cap"></i> 2. Kesesuaian dengan Karakteristik Siswa</h4>
+                <p>
+                  Peserta didik kelas VII SMP berada pada fase transisi operasional konkret menuju formal. Oleh karena
+                  itu, materi didesain secara visual dan kinestetik melalui diagram alur berwarna dan studi kasus
+                  berbasis gambar, sehingga materi tidak terkesan kering atau menakutkan bagi siswa yang baru pertama
+                  kali mengenal Informatika.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-language"></i> 3. Kejelasan Bahasa &amp; Analogi Kontekstual</h4>
+                <p>
+                  Bahasa yang digunakan ramah, komunikatif, dan meminimalkan jargon teknis. Penjelasan konsep Stack
+                  menggunakan analogi konkret tumpukan piring atau tumpukan buku, sedangkan konsep Queue menggunakan
+                  analogi antrean membeli makanan di kantin sekolah. Analogi ini terbukti sangat efektif mempercepat
+                  pemahaman intuitif murid.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-brain"></i> 4. Dukungan terhadap Berpikir Kritis</h4>
+                <p>
+                  Materi secara aktif merangsang daya nalar kritis melalui pertanyaan pemantik: <em>"Jika ada 3 tugas
+                    dengan tenggat waktu berbeda dan tingkat kesulitan beragam, tugas mana yang harus diselesaikan
+                    terlebih dahulu dan apa alasan logisnya?"</em> Hal ini melatih murid membuat keputusan berbasis data
+                  dan prioritas rasional.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-lightbulb"></i> 5. Kelebihan, Keterbatasan &amp; Rekomendasi Materi</h4>
+                <p>
+                  <strong>Kelebihan:</strong> Bahan ajar menggabungkan materi bacaan ringkas dengan visualisasi grafis
+                  yang menarik, memicu rasa ingin tahu, dan mudah diakses melalui gawai siswa via tautan barcode.
+                  <br>
+                  <strong>Keterbatasan:</strong> Beberapa murid yang memiliki kecepatan membaca rendah sempat tertinggal
+                  pada uraian teks naratif pada lembar studi kasus penjadwalan.
+                  <br>
+                  <strong>Rekomendasi Perbaikan:</strong> Menyertakan ringkasan infografis satu halaman (one-page
+                  summary) di setiap awal materi ajar untuk memfasilitasi murid dengan gaya belajar visual cepat.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.3 VIDEO PRAKTIK MENGAJAR SIKLUS 1                      -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="video" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-video"></i> 3. Video Praktik Mengajar Siklus 1
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Rekaman audio-visual pelaksanaan KBM mandiri Siklus 1 di laboratorium komputer dan kelas 7D SMP Negeri
+                18 Malang beserta evaluasi kritis 3 dimensi pembelajaran.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-film"></i> Video Dokumentasi Praktik KBM
+            </span>
+          </div>
+
+          <!-- Video Player Showcase Siklus 1 -->
+          <div class="artifact-showcase-card" style="border-top: 4px solid var(--primary-army); margin-bottom: 24px;">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+              <span class="artifact-showcase-badge"><i class="fas fa-play"></i> Praktik Mengajar Mandiri — Siklus
+                1</span>
+              <span class="meta-chip" style="font-size: 0.8rem; background: var(--bg-subtle);"><i
+                  class="fas fa-clock"></i> 10 Menit 56 Detik</span>
+            </div>
+            <h3 class="artifact-showcase-title">Rekaman Video Pembelajaran Siklus 1</h3>
+            <p class="artifact-showcase-desc" style="text-align: justify;">
+              Dokumentasi video lengkap pelaksanaan KBM Informatika Fase D Siklus 1: materi Berpikir Komputasional
+              (Optimasi Penjadwalan &amp; Struktur Data), mulai dari pembukaan apersepsi kontekstual, pengorganisasian
+              kelompok, pendampingan pengerjaan LKPD digital, demonstrasi media unplugged, hingga refleksi dan asesmen
+              penutup.
+            </p>
+
+            <!-- Video Player (YouTube Embed) -->
+            <div
+              style="margin: 16px 0; border-radius: var(--radius-md); overflow: hidden; background: #000; box-shadow: 0 8px 32px rgba(0,0,0,0.25); position: relative; padding-bottom: 56.25%; height: 0;">
+              <iframe src="https://www.youtube.com/embed/V0t8mbkDRhQ" title="Video Praktik Mengajar Siklus 1 - PPL Mandiri"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--radius-md);"></iframe>
+            </div>
+
+            <!-- Video Info Bar -->
+            <div class="video-info-bar">
+              <span><i class="fas fa-circle-play" style="color: var(--primary-army);"></i> <strong>Siklus 1</strong> —
+                Praktik KBM</span>
+              <span><i class="fas fa-stopwatch" style="color: var(--primary-army);"></i> Durasi: 10:56</span>
+              <span><i class="fas fa-file-video" style="color: var(--primary-army);"></i> Ukuran: 543 MB</span>
+              <span><i class="fas fa-chalkboard" style="color: var(--primary-army);"></i> Model: Problem Based Learning
+                (PBL)</span>
+              <span><i class="fas fa-desktop" style="color: var(--primary-army);"></i> Kelas 7D SMPN 18 Malang</span>
+            </div>
+
+            <div style="margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap;">
+              <a href="https://youtu.be/V0t8mbkDRhQ"
+                target="_blank" rel="noopener noreferrer" class="btn-doc-view"
+                style="flex: 1; text-align: center; background-color: var(--primary-army-soft); color: var(--primary-army);">
+                <i class="fab fa-youtube"></i> Tonton di YouTube — Siklus 1
+              </a>
+            </div>
+          </div>
+
+          <!-- Analisis Video Praktik Mengajar Siklus 1: 3 Dimensi -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Video Praktik Mengajar 3 Dimensi (Siklus 1)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Pendahuluan · Inti ·
+                Penutup</span>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 18px;">
+              <!-- Dimensi A -->
+              <div class="analysis-point-card" style="border-left-color: var(--primary-army);">
+                <h4><i class="fas fa-door-open"></i> A. Kegiatan Pendahuluan</h4>
+                <p>
+                  Pembelajaran diawali secara hangat dengan salam pembuka, doa bersama yang dipimpin ketua kelas, dan
+                  pengecekan presensi kehadiran serta kebersihan kelas. Guru melaksanakan apersepsi kontekstual dengan
+                  mengajukan pertanyaan pemantik mengenai pengalaman murid saat mengantre di kantin dan mengatur jadwal
+                  harian. Motivasi diberikan melalui gambaran manfaat keterampilan manajemen waktu bagi kesuksesan
+                  akademik. Tujuan pembelajaran dan alur aktivitas kelompok disampaikan secara terstruktur di awal
+                  pertemuan.
+                </p>
+              </div>
+
+              <!-- Dimensi B -->
+              <div class="analysis-point-card" style="border-left-color: var(--accent-sage);">
+                <h4><i class="fas fa-gears"></i> B. Kegiatan Inti</h4>
+                <p>
+                  Sintaks Problem Based Learning diimplementasikan secara runtut: (1) Orientasi murid pada masalah
+                  optimasi penjadwalan; (2) Pengorganisasian murid ke dalam kelompok kecil heterogen; (3) Penyelidikan
+                  mandiri dan kelompok berbantuan E-LKPD Wizer.me dan simulasi kartu tantangan; guru berkeliling
+                  memberikan bimbingan berjenjang (scaffolding); (4) Pengembangan dan penyajian hasil diskusi kelompok
+                  di depan kelas; murid memperagakan konsep FIFO (Queue) dan LIFO (Stack); (5) Analisis dan evaluasi
+                  proses pemecahan masalah bersama seluruh kelas. Interaksi guru-murid dan antarmurid terjalin
+                  komunikatif dan saling menghargai.
+                </p>
+              </div>
+
+              <!-- Dimensi C -->
+              <div class="analysis-point-card" style="border-left-color: var(--accent-gold);">
+                <h4><i class="fas fa-flag-checkered"></i> C. Kegiatan Penutup</h4>
+                <p>
+                  Guru bersama peserta didik menarik benang merah kesimpulan konsep mengenai cara kerja optimasi
+                  penjadwalan dan pemilihan struktur data. Guru memandu refleksi bersama terkait hal yang telah
+                  dipelajari, perasaan selama belajar, serta manfaat praktisnya. Guru memberikan apresiasi verbal
+                  terhadap partisipasi aktif seluruh kelompok, menyampaikan kisi-kisi topik pertemuan berikutnya, dan
+                  menutup pembelajaran dengan doa serta salam.
+                </p>
+              </div>
+
+              <!-- Refleksi Pelaksanaan Praktik Mengajar -->
+              <div
+                style="background: var(--bg-subtle); padding: 18px 20px; border-radius: var(--radius-md); border: 1px dashed var(--border-color); line-height: 1.7; font-size: 0.9rem;">
+                <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--primary-army); margin-bottom: 8px;">
+                  <i class="fas fa-clipboard-check"></i> Refleksi Pelaksanaan Siklus 1 (Praktik Baik, Kendala &amp;
+                  Rencana Perbaikan):
+                </h4>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                  <li><strong><i class="fas fa-check-circle" style="color: var(--primary-army);"></i> Praktik
+                      Baik:</strong> Integrasi analogi nyata dan simulasi fisik kartu tantangan berhasil memecahkan
+                    kebekuan konsep abstrak; seluruh siswa aktif terlibat dalam diskusi kelompok tanpa canggung.</li>
+                  <li><strong><i class="fas fa-triangle-exclamation" style="color: #c29349;"></i> Kendala yang
+                      Dihadapi:</strong> Manajemen waktu saat transisi dari pengamatan slide ke pengerjaan LKPD digital
+                    sempat molor sekitar 5 menit karena kendala beberapa gawai murid yang lambat memuat halaman web.
+                  </li>
+                  <li><strong><i class="fas fa-arrow-trend-up" style="color: var(--primary-army);"></i> Rencana
+                      Perbaikan untuk Siklus 2:</strong> Menyiapkan jaringan cadangan (tethering hotspot) serta
+                    membagikan tautan/barcode tugas 5 menit sebelum KBM dimulai agar aktivitas kelas berlangsung tepat
+                    waktu.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.4 MEDIA PEMBELAJARAN SIKLUS 1                          -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="media" style="margin-bottom: 40px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-cubes"></i> 4. Media Pembelajaran Siklus 1
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Artefak media inovatif yang digunakan pada Siklus 1, mengombinasikan presentasi visual multimedia,
+                E-LKPD digital interaktif, dan media fisik unplugged.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-puzzle-piece"></i> Digital, E-LKPD &amp; Unplugged
+            </span>
+          </div>
+
+          <!-- Grid Media Siklus 1 -->
+          <div class="artifact-showcase-grid">
+            <!-- Media 1: Slide Canva -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-sliders"></i> Presentasi Multimedia</span>
+              <h3 class="artifact-showcase-title">Slide Presentasi Interaktif Canva</h3>
+              <p class="artifact-showcase-desc" style="text-align: justify;">
+                Media visual Canva dengan diagram ilustratif, infografis logika alur data, dan tampilan bersih yang
+                digunakan guru untuk memandu demonstrasi konsep Berpikir Komputasional secara memikat di depan kelas.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="https://canva.link/kqqkwloqn8wjgd7" target="_blank" rel="noopener noreferrer"
+                  class="btn-doc-view" style="width: 100%; text-align: center;">
+                  <i class="fas fa-arrow-up-right-from-square"></i> Buka Canva Presentasi
+                </a>
+              </div>
+            </div>
+
+            <!-- Media 2: E-LKPD Wizer.me -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-file-signature"></i> Lembar Kerja Digital</span>
+              <h3 class="artifact-showcase-title">E-LKPD Interaktif (Wizer.me)</h3>
+              <p class="artifact-showcase-desc" style="text-align: justify;">
+                Platform lembar kerja digital berbasis studi kasus interaktif. Memungkinkan murid menyelesaikan
+                tantangan analisis penjadwalan dan alur algoritma secara terstruktur dan mandiri langsung dari gawai.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px; display: flex; flex-direction: column; gap: 8px;">
+                <a href="https://app.wizer.me/learn/0IO6V1" target="_blank" rel="noopener noreferrer"
+                  class="btn-doc-view" style="width: 100%; text-align: center;">
+                  <i class="fas fa-arrow-up-right-from-square"></i> E-LKPD Optimasi Penjadwalan
+                </a>
+                <a href="https://app.wizer.me/learn/UAL29X" target="_blank" rel="noopener noreferrer"
+                  class="btn-doc-view"
+                  style="width: 100%; text-align: center; background: var(--bg-surface); color: var(--primary-army); border: 1px solid var(--primary-army);">
+                  <i class="fas fa-arrow-up-right-from-square"></i> E-LKPD Algoritma
+                </a>
+              </div>
+            </div>
+
+            <!-- Media 3: Kartu Tantangan Struktur Data Unplugged -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-puzzle-piece"></i> Media Hands-on Unplugged</span>
+              <h3 class="artifact-showcase-title">Kartu Tantangan Struktur Data</h3>
+              <p class="artifact-showcase-desc" style="text-align: justify;">
+                Media kartu fisik tanpa komputer yang memfasilitasi eksplorasi konsep antrean (Queue) dan tumpukan
+                (Stack) melalui aktivitas menyusun, mengurutkan, dan mengelompokkan data secara langsung dan
+                kolaboratif.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/PPL/PPL%20Mandiri/Media/Kartu%20tantangan%20struktur%20data.jpeg" target="_blank"
+                  class="btn-doc-view" style="width: 100%; text-align: center;">
+                  <i class="fas fa-image"></i> Buka Kartu Tantangan Struktur Data
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- Analisis Artefak Produk Media Pembelajaran Siklus 1 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Media Pembelajaran (Siklus
+                1)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Evaluasi Efektivitas
+                Media</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bullseye"></i> 1. Relevansi Media dengan Karakteristik Materi</h4>
+                <p>
+                  Materi Berpikir Komputasional menuntut abstraksi logika yang tinggi. Kombinasi media visual Canva dan
+                  simulasi konkret kartu tantangan fisik sangat relevan karena menjembatani konsep abstrak ke dalam
+                  pengalaman kinestetik nyata yang mudah dipahami murid usia SMP kelas 7.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-universal-access"></i> 2. Aksesibilitas &amp; Kemudahan Penggunaan</h4>
+                <p>
+                  E-LKPD Wizer.me mudah diakses oleh peserta didik hanya dengan memindai kode QR tanpa perlu registrasi
+                  akun yang rumit. Tampilan antarmuka yang ramah gawai memudahkan pengisian jawaban, penarikan garis
+                  pencocokan konsep, dan penyerahan tugas digital secara mandiri.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-fire"></i> 3. Peningkatan Keterlibatan &amp; Motivasi</h4>
+                <p>
+                  Penggunaan kartu tantangan unplugged menumbuhkan dinamika kelompok yang hidup. Setiap murid memegang
+                  peran dalam menyusun kartu, berdiskusi menentukan antrean data, dan menguji urutan solusinya, sehingga
+                  mencegah dominasi satu anak dan meningkatkan keaktifan belajar seluruh anggota kelompok.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-shield-halved"></i> 4. Keunggulan Blended (Digital &amp; Unplugged)</h4>
+                <p>
+                  Pendekatan blended antara platform digital (Canva, Wizer.me) dengan media non-digital (kartu fisik)
+                  membuktikan bahwa pembelajaran Informatika tidak melulu bergantung pada ketersediaan komputer
+                  laboratorium, melainkan dapat terlaksana optimal dalam berbagai kondisi ruang kelas.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-wrench"></i> 5. Kendala Teknis &amp; Rekomendasi Solusi</h4>
+                <p>
+                  <strong>Kendala Teknis:</strong> Ketika seluruh siswa membuka tautan Wizer.me secara bersamaan,
+                  terjadi kelambatan pemuatan halaman pada gawai dengan sinyal internet lemah.
+                  <br>
+                  <strong>Rekomendasi Solusi:</strong> Menyiapkan versi cetak LKPD sebagai fail-safe cadangan, serta
+                  mengoptimalkan pembagian peran di mana pengerjaan digital dilakukan per kelompok (satu gawai per
+                  kelompok) untuk menghemat bandwidth internet sekolah.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- CYCLE BOTTOM PAGER NAVIGATION                -->
+        <!-- ============================================ -->
+        <div class="cycle-pager">
+          <a href="ppl-mandiri.html" class="cycle-pager-btn hub">
+            <i class="fas fa-th-large"></i> Portal PPL Mandiri
+          </a>
+          <a href="ppl-mandiri-siklus2.html" class="cycle-pager-btn next">
+            Lanjut ke Siklus 2 <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Portofolio PPG 2026</h3>
+          <p>
+            Portofolio Seminar Pendidikan Profesi Guru (PPG) Prajabatan 2026. Dikembangkan dengan dedikasi tinggi
+            mengusung tema warna <strong>Hijau Army</strong> untuk mencerminkan ketangguhan, ketenangan, dan
+            profesionalisme pendidik.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi Siklus</h4>
+          <div class="footer-links">
+            <a href="ppl-mandiri.html"><i class="fas fa-angle-right"></i> Portal PPL Mandiri</a>
+            <a href="ppl-mandiri-siklus1.html"><i class="fas fa-angle-right"></i> Siklus 1</a>
+            <a href="ppl-mandiri-siklus2.html"><i class="fas fa-angle-right"></i> Siklus 2</a>
+            <a href="ppl-mandiri-siklus3.html"><i class="fas fa-angle-right"></i> Siklus 3</a>
+            <a href="ppl-mandiri-siklus4.html"><i class="fas fa-angle-right"></i> Siklus 4</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tautan Penting</h4>
+          <div class="footer-links">
+            <a href="https://ppg.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Portal PPG Kemdikbud</a>
+            <a href="https://kurikulum.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Kurikulum Merdeka</a>
+            <a href="profil.html"><i class="fas fa-external-link-alt"></i> Kontak Pendidik</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Portofolio Seminar PPG 2026. Hak Cipta Dilindungi. Dibuat dengan HTML, CSS, &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

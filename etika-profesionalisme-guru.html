@@ -1,0 +1,827 @@
+﻿<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Mata Kuliah Etika Dan Profesionalisme Guru - Portofolio Digital Seminar PPG Prajabatan 2026 Universitas Negeri Malang.">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>Etika Dan Profesionalisme Guru | Portofolio PPG 2026</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle active" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item">
+              <i class="fas fa-school"></i> PPL Mandiri
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Drawer Toggler -->
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT AREA                          -->
+  <!-- ========================================== -->
+  <main class="page-content">
+    <section class="page-section">
+      <div class="container">
+
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-nav">
+          <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="semester2.html"><i class="fas fa-award"></i> Semester 2</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <span class="current">Etika Dan Profesionalisme Guru</span>
+        </div>
+
+        <!-- Detail Header Card -->
+        <div class="detail-header-card">
+          <span class="section-tag"><i class="fas fa-user-shield"></i> Mata Kuliah Inti - MK 07</span>
+          <h1 class="section-title" style="font-size: 2.2rem; margin-top: 10px; margin-bottom: 12px;">
+            Etika Dan Profesionalisme Guru
+          </h1>
+          <p class="section-subtitle"
+            style="font-size: 1.05rem; max-width: 1100px; line-height: 1.7; text-align: justify;">
+            Sebagai calon guru, mata kuliah ini membantu saya mengembangkan karakter, etika profesi, serta kompetensi
+            pedagogik dan profesional yang diperlukan dalam dunia pendidikan. Selain itu, saya semakin memahami
+            pentingnya literasi digital, keterampilan 4C, dan growth mindset untuk menciptakan pembelajaran yang
+            inovatif, bermakna, dan berdampak positif bagi peserta didik.
+          </p>
+
+          <div class="detail-meta-chips">
+            <div class="meta-chip">
+              <i class="fas fa-user-tie"></i>
+              <span>Penyusun: Siti Karunia Dewi</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-graduation-cap"></i>
+              <span>PPG Pendidikan Informatika</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-university"></i>
+              <span>Universitas Negeri Malang</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-clock"></i>
+              <span>Bobot: 2 SKS</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-cubes"></i>
+              <span>Kerangka Refleksi: Model 4C</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 1: REPOSITORI BERKAS DOKUMEN      -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="dokumen-tugas" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-folder-open"></i> 1. Dokumen Tugas Mata Kuliah (Per Topik)
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem;">
+                Daftar lengkap berkas lembar kerja (LK) pemecahan kasus, sintesis, refleksi dan tindak lanjut per topik
+                pada folder <em>Etika dan profesionalisme Guru</em>.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-files"></i> Total 25 Berkas PDF
+            </span>
+          </div>
+
+          <div class="topic-container">
+
+            <!-- TOPIK 1 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 1 Karakter Luhur Guru (Kepribadian dan Sosial)</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 5 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 1.1 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%201.%20Karakter%20Luhur%20Guru%20(Kepribadian%20dan%20Sosial)/LK-1A%20Pemilihan%20dan%20Desain%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-1A Pemilihan &amp; Desain Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Karakter Luhur Guru • 216 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.2 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%201.%20Karakter%20Luhur%20Guru%20(Kepribadian%20dan%20Sosial)/LK-1B%20Persiapan%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-1B Persiapan Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Persiapan Analisis • 254 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.3 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%201.%20Karakter%20Luhur%20Guru%20(Kepribadian%20dan%20Sosial)/LK-1C%20Diskusi%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-1C Diskusi Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Diskusi Kolaboratif • 242 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.4 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%201.%20Karakter%20Luhur%20Guru%20(Kepribadian%20dan%20Sosial)/LK-1D%20Sintesis.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-1D Sintesis</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Sintesis Gagasan Karakter • 484 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.5 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%201.%20Karakter%20Luhur%20Guru%20(Kepribadian%20dan%20Sosial)/LK-1E%20Refleksi%20dan%20Tindak%20Lanjut.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-1E Refleksi &amp; Tindak Lanjut</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Rencana Aksi Personal • 212 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 2 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 2 Profil Guru Profesional</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 5 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 2.1 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%202.%20Profil%20Guru%20Profesional/LK-2A%20Pemilihan%20dan%20Desain%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-2A Pemilihan &amp; Desain Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Profil Guru Profesional • 378 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.2 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%202.%20Profil%20Guru%20Profesional/LK-2B%20Persiapan%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-2B Persiapan Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Telaah Kompetensi Guru • 376 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.3 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%202.%20Profil%20Guru%20Profesional/LK-2C%20Diskusi%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-2C Diskusi Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Dilema Keprofesian • 289 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.4 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%202.%20Profil%20Guru%20Profesional/LK-2D%20Sintesis.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-2D Sintesis</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Sintesis Standar Pendidik • 506 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.5 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%202.%20Profil%20Guru%20Profesional/LK-2E%20Refleksi%20dan%20Tindak%20Lanjut.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-2E Refleksi &amp; Tindak Lanjut</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Pengembangan Mandiri • 418 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 3 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 3 Kompetensi Guru Abad 21 (4C dan Literasi Digital)</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 5 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 3.1 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%203.%20Kompetensi%20Guru%20Abad%2021%20(4C%20dan%20Literasi%20Digital)/LK-3A%20Pemilihan%20dan%20Desain%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-3A Pemilihan &amp; Desain Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">4C &amp; Literasi Digital • 259 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.2 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%203.%20Kompetensi%20Guru%20Abad%2021%20(4C%20dan%20Literasi%20Digital)/LK-3B%20Persiapan%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-3B Persiapan Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Strategi Integrasi 4C • 2.0 MB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.3 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%203.%20Kompetensi%20Guru%20Abad%2021%20(4C%20dan%20Literasi%20Digital)/LK-3C%20Diskusi%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-3C Diskusi Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Kolaborasi Solusi Digital • 13.3 MB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.4 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%203.%20Kompetensi%20Guru%20Abad%2021%20(4C%20dan%20Literasi%20Digital)/LK-3D%20Sintesis.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-3D Sintesis</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Sintesis Kompetensi Abad 21 • 164 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.5 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%203.%20Kompetensi%20Guru%20Abad%2021%20(4C%20dan%20Literasi%20Digital)/LK-3E%20Refleksi%20dan%20Tindak%20Lanjut.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-3E Refleksi &amp; Tindak Lanjut</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Rencana Implementasi • 513 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 4 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 4 Guru Sebagai Pembelajar Sepanjang Hayat</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 5 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 4.1 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%204.%20Guru%20Sebagai%20Pembelajar%20Sepanjang%20Hayat/LK-4A%20Pemilihan%20dan%20Desain%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-4A Pemilihan &amp; Desain Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Lifelong Learning Guru • 196 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.2 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%204.%20Guru%20Sebagai%20Pembelajar%20Sepanjang%20Hayat/LK-4B%20Persiapan%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-4B Persiapan Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Kemandirian Belajar • 233 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.3 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%204.%20Guru%20Sebagai%20Pembelajar%20Sepanjang%20Hayat/LK-4C%20Diskusi%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-4C Diskusi Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Komunitas Praktisi • 140 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.4 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%204.%20Guru%20Sebagai%20Pembelajar%20Sepanjang%20Hayat/LK-4D%20Sintesis.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-4D Sintesis</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Pengembangan Keprofesian • 2.0 MB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.5 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%204.%20Guru%20Sebagai%20Pembelajar%20Sepanjang%20Hayat/LK-4E%20Refleksi%20dan%20Tindak%20Lanjut.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-4E Refleksi &amp; Tindak Lanjut</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Refleksi Berkelanjutan • 192 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 5 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 5 Pembelajaran Mendalam dan Berdampak</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 5 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 5.1 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%205.%20Pembelajaran%20Mendalam%20dan%20Berdampak/LK-5A%20Pemilihan%20dan%20Desain%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-5A Pemilihan &amp; Desain Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Deep &amp; Impactful Learning • 182 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 5.2 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%205.%20Pembelajaran%20Mendalam%20dan%20Berdampak/LK-5B%20Persiapan%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-5B Persiapan Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Desain Pembelajaran Bermakna • 517 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 5.3 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%205.%20Pembelajaran%20Mendalam%20dan%20Berdampak/LK-5C%20Diskusi%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-5C Diskusi Pemecahan Kasus</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Studi Pembelajaran Berdampak • 411 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 5.4 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%205.%20Pembelajaran%20Mendalam%20dan%20Berdampak/LK-5D%20Sintesis.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-5D Sintesis</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Sintesis Deep Learning • 445 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 5.5 -->
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%205.%20Pembelajaran%20Mendalam%20dan%20Berdampak/LK-5E%20Refleksi%20dan%20Tindak%20Lanjut.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">LK-5E Refleksi &amp; Tindak Lanjut</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Refleksi Dampak Nyata • 340 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 2: REFLEKSI PEMBELAJARAN (4C)     -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="refleksi-4c" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-brain"></i> 2. Refleksi Pembelajaran (Model 4C)
+          </h2>
+          <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">
+            Analisis reflektif mendalam terhadap mata kuliah Etika Dan Profesionalisme Guru menggunakan kerangka kerja
+            <em>Connection, Challenge, Concept,</em> dan <em>Change</em> (4C).
+          </p>
+
+          <!-- Berkas PDF Refleksi Model 4C -->
+          <div class="topic-container" style="margin-bottom: 20px;">
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Refleksi Pembelajaran Model 4C</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 1 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Refleksi%20Pembelajaran%20Model%204C/LEMBAR%20KERJA%202%20(Refleksi%20Pembelajaran%20Model%204C%20Matkul%20EPG).pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LEMBAR KERJA 2 (Refleksi Model 4C EPG)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Refleksi Pembelajaran 4C • 169 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 3: MENGANALISIS ARTEFAK           -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="analisis-artefak" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-shapes"></i> 3. Menganalisis Artefak Pembelajaran
+          </h2>
+          <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.95rem; line-height: 1.7;">
+            Artefak pembelajaran yang saya pilih adalah <strong>LK-1D Sintesis Gagasan Karakter Luhur</strong>,
+            <strong>LK-2C Diskusi Pemecahan Kasus Dilema Etika</strong>, dan <strong>LK-3D Sintesis Kompetensi Guru Abad
+              21</strong>. Ketiga instrumen ini menjadi bukti otentik proses eksplorasi mendalam terhadap etika,
+            profesionalitas, dan kesiapan pendidik di era transformasi pendidikan.
+          </p>
+
+          <!-- Showcase 3 Artefak Cards with direct file links -->
+          <div class="artifact-showcase-grid">
+
+            <!-- Artefak 1 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-heart"></i> Artefak 1 (Topik 1)</span>
+              <h3 class="artifact-showcase-title">LK-1D Sintesis Gagasan Karakter Luhur</h3>
+              <p class="artifact-showcase-desc">
+                Mengintegrasikan nilai-nilai moral, kepribadian luhur, dan kompetensi sosial pendidik sebagai teladan
+                hidup (<em>Ing Ngarsa Sung Tuladha</em>) dalam membangun iklim sekolah yang aman, humanis, dan beradab.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%201.%20Karakter%20Luhur%20Guru%20(Kepribadian%20dan%20Sosial)/LK-1D%20Sintesis.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (484 KB)
+                </a>
+              </div>
+            </div>
+
+            <!-- Artefak 2 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-scale-balanced"></i> Artefak 2 (Topik 2)</span>
+              <h3 class="artifact-showcase-title">LK-2C Diskusi Pemecahan Kasus Dilema Etika</h3>
+              <p class="artifact-showcase-desc">
+                Analisis pemecahan masalah terhadap studi kasus dilema etika keprofesian, prinsip objektivitas dan
+                keadilan penilaian, serta batasan profesionalitas guru dalam relasi dengan peserta didik dan wali murid.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%202.%20Profil%20Guru%20Profesional/LK-2C%20Diskusi%20Pemecahan%20Kasus.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (289 KB)
+                </a>
+              </div>
+            </div>
+
+            <!-- Artefak 3 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-laptop-code"></i> Artefak 3 (Topik 3)</span>
+              <h3 class="artifact-showcase-title">LK-3D Sintesis Kompetensi Guru Abad 21</h3>
+              <p class="artifact-showcase-desc">
+                Merumuskan strategi integrasi keterampilan 4C (<em>Critical Thinking, Creativity, Collaboration,
+                  Communication</em>) dan etika literasi digital dalam merancang pembelajaran interaktif masa depan.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester2/Etika%20dan%20profesionalisme%20Guru/Topik%203.%20Kompetensi%20Guru%20Abad%2021%20(4C%20dan%20Literasi%20Digital)/LK-3D%20Sintesis.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (164 KB)
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Ulasan Naratif Artefak -->
+          <div
+            style="background-color: var(--bg-subtle); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border-color); line-height: 1.75; font-size: 0.95rem; color: var(--text-secondary); margin-top: 20px;">
+            <p style="margin-bottom: 14px;">
+              Saya memilih ketiga artefak di atas karena mewakili dimensi esensial profil guru paripurna, yaitu
+              <strong>karakter budi pekerti</strong>, <strong>keteguhan etika keprofesian</strong>, dan
+              <strong>kapabilitas adaptif abad ke-21</strong>. Melalui artefak <em>LK-1D Sintesis Gagasan Karakter
+                Luhur</em>, saya menyadari bahwa sebelum mentransfer ilmu pengetahuan, seorang guru harus terlebih
+              dahulu menjadi figur keteladanan moral yang menumbuhkan rasa aman dan penghargaan terhadap kemanusiaan.
+            </p>
+            <p style="margin-bottom: 14px;">
+              Pada artefak <em>LK-2C Diskusi Pemecahan Kasus Dilema Etika</em>, saya terlatih untuk berpikir objektif
+              dan berprinsip saat berhadapan dengan situasi pelik di lapangan pendidikan, memastikan setiap tindakan
+              tetap berlandaskan pada Kode Etik Guru Indonesia. Sementara itu, artefak <em>LK-3D Sintesis Kompetensi
+                Guru Abad 21</em> mempertegas bahwa profesionalitas guru era modern harus ditopang oleh kecakapan
+              literasi digital dan keterampilan 4C yang diaplikasikan secara bijak dan bertanggung jawab.
+            </p>
+            <p style="font-weight: 600; color: var(--primary-army); margin: 0;">
+              <i class="fas fa-check-circle" style="color: var(--primary-army); margin-right: 6px;"></i>
+              Dari rangkaian artefak tersebut, saya semakin meyakini bahwa profesionalisme sejati seorang guru bukan
+              sekadar penguasaan materi teknis, melainkan perpaduan utuh antara integritas etika, keluhuran kepribadian,
+              dan komitmen mendidik yang berpusat pada peserta didik.
+            </p>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 4: MERUMUSKAN HASIL REFLEKSI      -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="hasil-refleksi" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-award"></i> 4. Merumuskan Hasil Refleksi
+          </h2>
+
+          <div class="synthesis-callout">
+            <p class="synthesis-quote">
+              "Guru profesional tidak hanya diukur dari kecanggihan metode mengajar dan penguasaan teknologi di kelas,
+              melainkan dari kedalaman integritas moral, keluhuran budi pekerti, dan keteladanan sikap yang membimbing
+              peserta didik menuju peradaban yang berkeadaban."
+            </p>
+
+            <div class="synthesis-action-box">
+              <h4 class="synthesis-action-title">
+                <i class="fas fa-bullseye"></i> Komitmen Tindak Lanjut Calon Guru Profesional:
+              </h4>
+              <p class="synthesis-action-text">
+                Sebagai pendidik masa depan, saya berkomitmen untuk <strong>senantiasa menjunjung tinggi Kode Etik Guru
+                  Indonesia</strong>, menjaga <strong>integritas moral dalam segala keputusan pedagogis</strong>,
+                memperlakukan <strong>setiap peserta didik dengan adil dan penuh empati</strong>, serta terus
+                <strong>mengembangkan kompetensi profesional berkelanjutan</strong> sepanjang hayat.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Navigation Bar -->
+        <div class="page-navigation-bar">
+          <a href="mk-ppl-terbimbing.html" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Semester 1: PPL Terbimbing
+          </a>
+          <a href="pembelajaran-mendalam-lanjut.html" class="btn btn-primary">
+            Mata Kuliah Berikutnya: Pembelajaran Mendalam Lanjut <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <h3>Portofolio PPG 2026</h3>
+          <p>
+            Portofolio Seminar Pendidikan Profesi Guru (PPG) Prajabatan 2026. Dikembangkan dengan dedikasi tinggi
+            mengusung tema warna <strong>Hijau Army</strong> untuk mencerminkan ketangguhan, ketenangan, dan
+            profesionalisme pendidik.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi Cepat</h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="fas fa-angle-right"></i> Beranda</a>
+            <a href="profil.html"><i class="fas fa-angle-right"></i> Profil Pendidik</a>
+            <a href="semester1.html"><i class="fas fa-angle-right"></i> Semester 1</a>
+            <a href="semester2.html"><i class="fas fa-angle-right"></i> Semester 2</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tautan Penting</h4>
+          <div class="footer-links">
+            <a href="https://ppg.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Portal PPG Kemdikbud</a>
+            <a href="https://kurikulum.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Kurikulum Merdeka</a>
+            <a href="profil.html"><i class="fas fa-external-link-alt"></i> Kontak Pendidik</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Portofolio Seminar PPG 2026. Hak Cipta Dilindungi. Dibuat dengan HTML, CSS, & JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

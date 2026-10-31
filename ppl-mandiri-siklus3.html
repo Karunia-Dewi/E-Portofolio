@@ -1,0 +1,966 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Siklus 3 Praktik Pengalaman Lapangan (PPL) Mandiri - Portofolio Seminar PPG 2026 Siti Karunia Dewi. Meliputi Perencanaan Pembelajaran, Materi Pembelajaran, Video Praktik Mengajar, dan Media Pembelajaran Sistem Komputer Lanjutan & UHB Fase D SMPN 18 Malang.">
+  <meta name="keywords"
+    content="Siklus 3 PPL Mandiri, Sistem Komputer Lanjutan, Input Proses Output Storage, Ulangan Harian Bersama UHB, Lab Komputer, PPG Informatika, Universitas Negeri Malang, Siti Karunia Dewi">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>Siklus 3 — Praktik Pengalaman Lapangan Mandiri | Siti Karunia Dewi</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle active" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item active">
+              <i class="fas fa-school"></i> PPL Mandiri Hub
+            </a>
+            <a href="ppl-mandiri-siklus1.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 1
+            </a>
+            <a href="ppl-mandiri-siklus2.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 2
+            </a>
+            <a href="ppl-mandiri-siklus3.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 3
+            </a>
+            <a href="ppl-mandiri-siklus4.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 4
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Drawer Toggler -->
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT AREA                          -->
+  <!-- ========================================== -->
+  <main class="page-content">
+    <section class="page-section">
+      <div class="container">
+
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-nav">
+          <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="ppl.html"><i class="fas fa-chalkboard-user"></i> PPL</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="ppl-mandiri.html">PPL Mandiri</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <span class="current">Siklus 3</span>
+        </div>
+
+        <!-- Detail Header Card -->
+        <div class="detail-header-card">
+          <span class="section-tag"><i class="fas fa-rotate"></i> Siklus 3 — Praktik Lapangan Mandiri </span>
+          <h1 class="section-title" style="font-size: 2.2rem; margin-top: 10px; margin-bottom: 12px;">
+            Siklus 3 — Praktik Pengalaman Lapangan Mandiri
+          </h1>
+          <p class="section-subtitle"
+            style="font-size: 1.05rem; max-width: 1100px; line-height: 1.7; text-align: justify;">
+            Dokumentasi komprehensif pelaksanaan pengajaran mandiri Siklus 3 pada mata pelajaran <strong>Informatika
+              Fase D (Kelas VII-D &amp; VII-E) SMP Negeri 18 Malang</strong>.
+            Fokus pembelajaran diarahkan pada penguasaan klasifikasi fungsional perangkat keras sistem komputer:
+            <strong>Perangkat Masukan (Input), Pemrosesan (Process), Keluaran (Output), dan Media Penyimpanan
+              (Storage)</strong> melalui pengamatan langsung di laboratorium komputer, serta pelaksanaan <strong>Ulangan
+              Harian Bersama (UHB) 1</strong>.
+          </p>
+
+          <div class="detail-meta-chips">
+            <div class="meta-chip">
+              <i class="fas fa-user-tie"></i>
+              <span>Penyusun: Siti Karunia Dewi</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-school"></i>
+              <span>SMP Negeri 18 Malang</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-users"></i>
+              <span>Kelas / Fase: VII-D &amp; VII-E / Fase D</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-microchip"></i>
+              <span>Materi: Input, Proses, Output &amp; Storage</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-vial-circle-check"></i>
+              <span>Evaluasi: Ulangan Harian Bersama (UHB) 1</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- SUBMENU / TAB NAVIGASI 4 KATEGORI SIKLUS 3   -->
+        <!-- ============================================ -->
+        <nav class="cycle-submenu-nav" aria-label="Navigasi Kategori Siklus 3">
+          <a href="#perencanaan" class="cycle-submenu-link active">
+            <i class="fas fa-clipboard-list"></i> 1. Perencanaan Pembelajaran
+          </a>
+          <a href="#materi" class="cycle-submenu-link">
+            <i class="fas fa-book-open"></i> 2. Materi Pembelajaran
+          </a>
+          <a href="#video" class="cycle-submenu-link">
+            <i class="fas fa-video"></i> 3. Video Praktik Mengajar
+          </a>
+          <a href="#media" class="cycle-submenu-link">
+            <i class="fas fa-cubes"></i> 4. Media Pembelajaran
+          </a>
+        </nav>
+
+        <!-- ======================================================== -->
+        <!-- 3.1 PERENCANAAN PEMBELAJARAN SIKLUS 3                    -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="perencanaan" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-clipboard-list"></i> 1. Perencanaan Pembelajaran Siklus 3
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Rancangan modul ajar Kurikulum Merdeka untuk materi alur pemrosesan data komputer, instrumen kisi-kisi
+                dan naskah soal Ulangan Harian Bersama (UHB) 1.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-file-shield"></i> 3 Perangkat Modul &amp; UHB 1
+            </span>
+          </div>
+
+          <!-- Grid Berkas RPP Siklus 3 -->
+          <div class="highlights-bar"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; margin-bottom: 24px;">
+
+            <!-- Modul 3.1 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%203/Pertemuan%201/RPP_Sistem%20Komputer_7E.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Sistem Komputer — Kelas 7E</h3>
+                <p>Eksplorasi Perangkat Keras Pertemuan 1 • 388 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Format Kisi-kisi UHB -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%203/Pertemuan%202/Format%20Kisi-Kisi%20UHB%201%20Kls%207D%2026-27.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-list-check"></i></div>
+              <div class="highlight-info">
+                <h3>Format Kisi-Kisi UHB 1 Kelas 7D</h3>
+                <p>Distribusi Butir Soal &amp; Indikator Kognitif • 171 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Modul 3.3 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%203/Pertemuan%203/RPP_Sistem%20Komputer_7D%20(input_output_proses).pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Sistem Komputer — Kelas 7D</h3>
+                <p>Modul Alur Input, Proses, Output &amp; Storage • 415 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+
+          <!-- Analisis Artefak Produk Perencanaan Pembelajaran Siklus 3 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Perencanaan Pembelajaran
+                (Siklus 3)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Telaah Pedagogis 6
+                Dimensi</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bullseye"></i> 1. Kesesuaian Tujuan Pembelajaran dengan CP dan Materi</h4>
+                <p style="text-align: justify;">
+                  Perencanaan pembelajaran Siklus 3 berfokus pada materi Sistem Komputer, khususnya fungsi dan
+                  pengelompokan komponen perangkat keras berdasarkan kategori Input, Process, Output, dan Storage
+                  (IPOS).
+                  Tujuan pembelajaran diarahkan agar murid mampu menjelaskan komponen hardware, software, dan brainware
+                  beserta contoh serta fungsinya dalam sistem komputer. Materi ini relevan dengan Capaian Pembelajaran
+                  Informatika Fase D, terutama kemampuan mendeskripsikan komponen, fungsi, dan cara kerja komputer.
+                  Pembelajaran juga dikaitkan dengan pengalaman sehari-hari, seperti proses mengetik menggunakan
+                  keyboard
+                  hingga tulisan ditampilkan pada monitor. Hal ini membantu murid memahami hubungan antarkomponen
+                  komputer secara lebih konkret.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-compass-drafting"></i> 2. Model Pembelajaran Discovery Learning dan Eksplorasi
+                  Laboratorium</h4>
+                <p style="text-align: justify;">
+                  Modul menerapkan pendekatan Deep Learning dengan model Discovery Learning melalui kegiatan observasi
+                  langsung terhadap komponen komputer di laboratorium. Murid diberikan kesempatan mengamati CPU yang
+                  telah
+                  dibuka untuk mengenali motherboard, processor, RAM, VGA, HDD, PSU, dan kipas pendingin, serta
+                  keyboard,
+                  mouse, dan monitor. Kegiatan ini mendorong murid menemukan pengetahuan melalui pengamatan, pengumpulan
+                  informasi, pengolahan data, dan pembuktian hasil diskusi. Pendekatan tersebut menjadikan pembelajaran
+                  lebih kontekstual karena murid tidak hanya mempelajari gambar atau teori, tetapi juga melihat bentuk
+                  dan komponen perangkat keras secara langsung.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-people-group"></i> 3. Penerapan Kurikulum Merdeka dan Kolaborasi Murid</h4>
+                <p style="text-align: justify;">
+                  Aktivitas pembelajaran dirancang secara berkelompok dengan anggota empat orang. Setiap kelompok
+                  bekerja
+                  sama mengidentifikasi nama perangkat, menjelaskan fungsinya, serta mengelompokkan perangkat
+                  berdasarkan kategori IPOS melalui LKPD digital. Kegiatan diskusi, pembagian tanggung jawab, dan
+                  presentasi hasil pengamatan mendukung penguatan dimensi Profil Pelajar Pancasila, khususnya bernalar
+                  kritis, gotong royong, kreatif, dan mandiri. Selain itu, keterlibatan murid dalam mengamati perangkat,
+                  mengisi tabel, dan menyampaikan hasil diskusi memberikan kesempatan kepada murid dengan kemampuan
+                  beragam
+                  untuk berpartisipasi sesuai perannya.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-clipboard-check"></i> 4. Keselarasan Asesmen Formatif dengan Tujuan Pembelajaran
+                </h4>
+                <p style="text-align: justify;">
+                  Instrumen penilaian disusun melalui tiga aspek, yaitu sikap, pengetahuan, dan keterampilan. Penilaian
+                  sikap mencakup kerja sama, tanggung jawab, menghargai pendapat, dan percaya diri. Penilaian
+                  pengetahuan
+                  berfokus pada ketepatan gambar perangkat, fungsi komponen, dan pengelompokan IPOS. Sementara itu,
+                  penilaian keterampilan mengukur kemampuan mengidentifikasi komponen, mengelompokkan jenis perangkat,
+                  serta menyajikan hasil diskusi. Penggunaan rubrik dengan rentang skor 1–4 memberikan pedoman penilaian
+                  yang lebih terstruktur. Asesmen juga dilengkapi tindak lanjut berupa pengayaan bagi murid yang telah
+                  mencapai nilai minimal 80 dan remedial bagi murid yang belum mencapai ketuntasan.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-scale-balanced"></i> 5. Kekuatan Produk, Kendala, dan Rekomendasi Perbaikan</h4>
+                <p style="text-align: justify;">
+                  <strong>Kekuatan:</strong> Modul memiliki keterpaduan antara materi, media pembelajaran, LKPD, dan
+                  instrumen penilaian. Penggunaan CPU yang dibuka sebagai objek observasi memberikan pengalaman belajar
+                  langsung, sedangkan LKPD digital membantu murid mendokumentasikan hasil pengamatan dan
+                  mengklasifikasikan perangkat berdasarkan fungsi. Modul juga menyediakan kegiatan remedial dan
+                  pengayaan
+                  sehingga memberikan ruang bagi perbedaan kemampuan belajar murid.
+                  <br><br>
+                  <strong>Kendala:</strong> Keterbatasan waktu observasi dan pembagian kesempatan mengamati komponen
+                  komputer juga berpotensi menyebabkan keterlibatan murid belum merata.
+                  <br><br>
+                  <strong>Rekomendasi Perbaikan:</strong> Mengoptimalkan pembagian peran dalam kelompok, memberikan
+                  kesempatan pengamatan secara bergiliran, serta menyediakan dokumentasi visual komponen komputer
+                  sebagai
+                  alternatif apabila waktu praktik terbatas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.2 MATERI PEMBELAJARAN SIKLUS 3                         -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="materi" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-book-open"></i> 2. Materi Pembelajaran Siklus 3
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Bahan presentasi Sistem Komputer terstruktur, naskah materi ujian, dan dokumentasi foto kegiatan belajar
+                di laboratorium komputer SMPN 18 Malang.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-layer-group"></i> Materi Alur Pemrosesan Komputer
+            </span>
+          </div>
+
+          <!-- Grid Berkas Materi Siklus 3 -->
+          <div class="highlights-bar"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; margin-bottom: 24px;">
+
+            <!-- Materi Presentasi -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%203/Pertemuan%201/Materi%20Sistem%20Komputer%20Presentasi.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-powerpoint"></i></div>
+              <div class="highlight-info">
+                <h3>Slide Presentasi Sistem Komputer</h3>
+                <p>Materi Input, Proses, Output &amp; Storage • 1.4 MB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Naskah Soal UHB -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%203/Pertemuan%202/SOAL%20UHB%20Kelas%20VII%20SMP%20N%2018%20Malang.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>Naskah Soal UHB 1 Informatika</h3>
+                <p>Dokumen Evaluasi Sumatif Bersama Fase D • 201 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+
+          <!-- Galeri Foto Dokumentasi Penerapan Materi Siklus 3 di Lab Komputer -->
+          <div style="margin-bottom: 24px;">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+              <h4
+                style="font-size: 1.05rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-camera"></i> Dokumentasi Penerapan Materi di Lab Komputer (Siklus 3)
+              </h4>
+              <span class="meta-chip"
+                style="font-size: 0.8rem; background: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+                Praktik Komputer Nyata
+              </span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
+              <!-- Dok 7 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%207.png" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%207.png"
+                      alt="Pengamatan CPU & Lab Komputer" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-desktop" style="color: var(--primary-army); margin-right: 6px;"></i> Pengamatan
+                    CPU &amp; Lab</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%207.png" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 8 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%208.png" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%208.png"
+                      alt="Eksplorasi Komputer Lab" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-users-gear" style="color: var(--primary-army); margin-right: 6px;"></i>
+                    Eksplorasi Kelompok Lab</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%208.png" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 9 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%209.png" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%209.png"
+                      alt="Praktik Hardware Komputer" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-microchip" style="color: var(--primary-army); margin-right: 6px;"></i>
+                    Identifikasi Port &amp; Periferal</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%209.png" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Analisis Artefak Produk Materi Pembelajaran Siklus 3 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Materi Pembelajaran (Siklus
+                3)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Kajian Substansi Konsep
+                Sistem Komputer</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bullseye"></i> 1. Ketepatan Konsep Sistem Komputer</h4>
+                <p>
+                  Materi menjelaskan pengertian sistem komputer sebagai kesatuan elemen yang saling bekerja sama dalam
+                  menerima, mengolah, menyimpan, dan menghasilkan informasi. Pembahasan tiga komponen utama, yaitu
+                  hardware, software, dan brainware, sudah sesuai untuk membangun pemahaman dasar murid kelas VII.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-eye"></i> 2. Kejelasan Visualisasi Komponen Komputer</h4>
+                <p>
+                  Materi dilengkapi ilustrasi perangkat keras dan komponen internal komputer, seperti CPU, RAM, VGA/GPU,
+                  motherboard, dan HDD/SSD. Visualisasi pada halaman 6 membantu murid mengenali bentuk fisik perangkat
+                  serta memahami pengelompokan hardware berdasarkan fungsinya.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-link"></i> 3. Keterkaitan Materi dengan Kehidupan Sehari-hari</h4>
+                <p>
+                  Materi memperkenalkan perangkat yang sering digunakan murid, seperti keyboard, mouse, monitor, dan
+                  aplikasi komputer. Namun, contoh alur kerja antarkomponen masih perlu diperjelas agar murid mampu
+                  memahami hubungan hardware, software, dan brainware dalam aktivitas nyata.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-hand-holding-hand"></i> 4. Penguatan Literasi Digital Murid</h4>
+                <p>
+                  Pengenalan sistem operasi, program aplikasi, dan peran pengguna komputer memberikan dasar literasi
+                  digital bagi murid. Materi ini membantu murid memahami bahwa pengoperasian komputer membutuhkan
+                  keterpaduan perangkat keras, perangkat lunak, dan manusia.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-sliders"></i> 5. Kelebihan, Keterbatasan &amp; Rekomendasi</h4>
+                <p>
+                  <strong>Kelebihan:</strong> Materi memiliki desain visual menarik, bahasa sederhana, dan ilustrasi
+                  konkret yang memudahkan murid memahami konsep serta mengenali komponen sistem komputer.
+                  <br>
+                  <strong>Keterbatasan:</strong> Materi masih dominan berupa penjelasan dan pengenalan komponen, belum
+                  banyak menyajikan contoh alur kerja maupun permasalahan nyata. Selain itu, penyebutan casing sebagai
+                  CPU pada ilustrasi berpotensi menimbulkan miskonsepsi.
+                  <br>
+                  <strong>Rekomendasi Perbaikan:</strong> Menambahkan diagram alur kerja komputer melalui aktivitas
+                  mengetik dan menyimpan dokumen, memperjelas perbedaan casing dengan prosesor, serta menyajikan studi
+                  kasus sederhana untuk melatih kemampuan analisis murid.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ======================================================== -->
+          <!-- 3.3 VIDEO PRAKTIK MENGAJAR SIKLUS 3                      -->
+          <!-- ======================================================== -->
+          <div class="content-block" id="video" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+              <div>
+                <h2 class="block-title" style="margin-bottom: 4px;">
+                  <i class="fas fa-video"></i> 3. Video Praktik Mengajar Siklus 3
+                </h2>
+                <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                  Dokumentasi rekaman video pelaksanaan KBM kolaboratif Siklus 3 di laboratorium komputer SMPN 18 Malang
+                  beserta evaluasi kritis 3 dimensi.
+                </p>
+              </div>
+              <span class="meta-chip"
+                style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+                <i class="fas fa-film"></i> Video Praktik KBM Siklus 3
+              </span>
+            </div>
+
+            <!-- Video Player Showcase Siklus 3 -->
+            <div class="artifact-showcase-card" style="border-top: 4px solid var(--primary-army); margin-bottom: 24px;">
+              <div
+                style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+                <span class="artifact-showcase-badge"><i class="fas fa-play"></i> Praktik Mengajar Mandiri — Siklus
+                  3</span>
+                <span class="meta-chip" style="font-size: 0.8rem; background: var(--bg-subtle);"><i
+                    class="fas fa-clock"></i> 11 Menit 01 Detik</span>
+              </div>
+              <h3 class="artifact-showcase-title">Rekaman Video Pembelajaran Siklus 3</h3>
+              <p class="artifact-showcase-desc" style="text-align: justify;">
+                Dokumentasi video pelaksanaan KBM Informatika Fase D Siklus 3: pembelajaran kolaboratif di lab komputer
+                mengenai identifikasi dan klasifikasi perangkat input, proses, output, dan media penyimpanan, dilengkapi
+                bimbingan guru dan presentasi pengelompokan periferal.
+              </p>
+
+              <!-- Video Player (YouTube Embed) -->
+              <div
+                style="margin: 16px 0; border-radius: var(--radius-md); overflow: hidden; background: #000; box-shadow: 0 8px 32px rgba(0,0,0,0.25); position: relative; padding-bottom: 56.25%; height: 0;">
+                <iframe src="https://www.youtube.com/embed/14usXodkTCc" title="Video Praktik Mengajar Siklus 3 - PPL Mandiri"
+                  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--radius-md);"></iframe>
+              </div>
+
+              <!-- Video Info Bar -->
+              <div class="video-info-bar">
+                <span><i class="fas fa-circle-play" style="color: var(--primary-army);"></i> <strong>Siklus 3</strong> —
+                  Praktik KBM</span>
+                <span><i class="fas fa-stopwatch" style="color: var(--primary-army);"></i> Durasi: 11:01</span>
+                <span><i class="fas fa-file-video" style="color: var(--primary-army);"></i> Ukuran: 648 MB</span>
+                <span><i class="fas fa-chalkboard" style="color: var(--primary-army);"></i> Model: Problem Based
+                  Learning
+                  (PBL)</span>
+                <span><i class="fas fa-desktop" style="color: var(--primary-army);"></i> Lab Komputer SMPN 18
+                  Malang</span>
+              </div>
+
+              <div style="margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap;">
+                <a href="https://youtu.be/14usXodkTCc"
+                  target="_blank" rel="noopener noreferrer" class="btn-doc-view"
+                  style="flex: 1; text-align: center; background-color: var(--primary-army-soft); color: var(--primary-army);">
+                  <i class="fab fa-youtube"></i> Tonton di YouTube — Siklus 3
+                </a>
+              </div>
+            </div>
+
+            <!-- Analisis Video Praktik Mengajar Siklus 3: 3 Dimensi -->
+            <div class="analysis-box-container">
+              <div
+                style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+                <h3
+                  style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                  <i class="fas fa-magnifying-glass-chart"></i> Analisis Video Praktik Mengajar 3 Dimensi (Siklus 3)
+                </h3>
+                <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Pendahuluan · Inti ·
+                  Penutup</span>
+              </div>
+
+              <div style="display: flex; flex-direction: column; gap: 18px;">
+                <!-- Dimensi A -->
+                <div class="analysis-point-card" style="border-left-color: var(--primary-army);">
+                  <h4><i class="fas fa-door-open"></i> A. Kegiatan Pendahuluan</h4>
+                  <p>
+                    Guru memulai kegiatan pembelajaran dengan salam pembuka yang ramah, berdoa bersama, dan mengecek
+                    presensi murid. Apersepsi dilakukan dengan meminta murid melihat ke arah kabel yang menghubungkan
+                    keyboard dan mouse ke casing CPU di bawah meja lab: <em>"Kenapa kabel ini harus tersambung ke port
+                      belakang komputer?"</em> Pertanyaan ini sukses memancing rasa ingin tahu seluruh peserta didik dan
+                    mengarahkan fokus kelas pada tujuan pembelajaran hari itu.
+                  </p>
+                </div>
+
+                <!-- Dimensi B -->
+                <div class="analysis-point-card" style="border-left-color: var(--accent-sage);">
+                  <h4><i class="fas fa-gears"></i> B. Kegiatan Inti</h4>
+                  <p>
+                    Penerapan Problem Based Learning berlangsung dinamis di laboratorium: (1) Murid berkelompok
+                    mengamati
+                    unit komputer yang sedang digunakan; (2) Guru membagikan lembar pengamatan klasifikasi hardware; (3)
+                    Peserta didik secara aktif memeriksa port USB, kabel VGA/HDMI monitor, dan tombol power; (4) Guru
+                    melakukan pendampingan intensif berkeliling meja lab, menjawab pertanyaan dan meluruskan istilah
+                    teknis; (5) Perwakilan kelompok mempresentasikan hasil tabel klasifikasi dan memperagakan fungsi
+                    tombol shortcut keyboard di layar proyektor kelas.
+                  </p>
+                </div>
+
+                <!-- Dimensi C -->
+                <div class="analysis-point-card" style="border-left-color: var(--accent-gold);">
+                  <h4><i class="fas fa-flag-checkered"></i> C. Kegiatan Penutup</h4>
+                  <p>
+                    Guru memandu sesi sintesis bersama murid: menyimpulkan perbedaan esensial antara input device,
+                    proses,
+                    output, dan storage. Guru memberikan penguatan atas ketepatan hasil analisis murid, memberikan
+                    apresiasi atas kedisiplinan menjaga peralatan lab, mengumumkan rencana kegiatan puncak yaitu bedah
+                    fisik casing CPU di Siklus 4, serta menutup kelas dengan doa bersama dan salam.
+                  </p>
+                </div>
+
+                <!-- Refleksi Pelaksanaan Praktik Mengajar -->
+                <div
+                  style="background: var(--bg-subtle); padding: 18px 20px; border-radius: var(--radius-md); border: 1px dashed var(--border-color); line-height: 1.7; font-size: 0.9rem;">
+                  <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--primary-army); margin-bottom: 8px;">
+                    <i class="fas fa-clipboard-check"></i> Refleksi Pelaksanaan Siklus 3 (Praktik Baik, Kendala &amp;
+                    Rencana Perbaikan):
+                  </h4>
+                  <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                    <li><strong><i class="fas fa-check-circle" style="color: var(--primary-army);"></i> Praktik
+                        Baik:</strong> Berinteraksi langsung dengan piranti komputer nyata memicu antusiasme belajar
+                      yang
+                      sangat tinggi; pemahaman murid tentang input-proses-output terbangun kuat secara kontekstual.</li>
+                    <li><strong><i class="fas fa-triangle-exclamation" style="color: #c29349;"></i> Kendala yang
+                        Dihadapi:</strong> Beberapa murid sempat keliru mengelompokkan flashdisk sebagai perangkat input
+                      karena dicolokkan ke port USB.</li>
+                    <li><strong><i class="fas fa-arrow-trend-up" style="color: var(--primary-army);"></i> Rencana
+                        Perbaikan untuk Siklus 4:</strong> Menyiapkan penegasan konsep penyimpanan (storage) versus
+                      penginput data murni melalui media kartu dan demonstrasi bedah CPU fisik secara terbuka.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ======================================================== -->
+          <!-- 3.4 MEDIA PEMBELAJARAN SIKLUS 3                          -->
+          <!-- ======================================================== -->
+          <div class="content-block" id="media" style="margin-bottom: 40px; scroll-margin-top: 140px;">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+              <div>
+                <h2 class="block-title" style="margin-bottom: 4px;">
+                  <i class="fas fa-cubes"></i> 4. Media Pembelajaran Siklus 3
+                </h2>
+                <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                  Media realia perangkat keras komputer di laboratorium, slide multimedia presentasi, dan instrumen
+                  asesmen sumatif UHB 1.
+                </p>
+              </div>
+              <span class="meta-chip"
+                style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+                <i class="fas fa-microchip"></i> Media Realia Lab &amp; Presentasi
+              </span>
+            </div>
+
+            <!-- Grid Media Siklus 3 -->
+            <div class="media-grid-2x2">
+              <!-- Media 1: Objek Komputer Fisik Lab -->
+              <div class="artifact-showcase-card">
+                <span class="artifact-showcase-badge"><i class="fas fa-desktop"></i> Media Realia (Objek Asli)</span>
+                <h3 class="artifact-showcase-title">Unit Komputer Fisik Lab SMPN 18 Malang</h3>
+                <p class="artifact-showcase-desc" style="text-align: justify;">
+                  Pemanfaatan unit desktop PC laboratorium sekolah sebagai media pembelajaran langsung (realia) di mana
+                  murid dapat mengamati bentuk fisik port, kabel konektor, tombol operasional, dan lampu indikator LED
+                  secara aman.
+                </p>
+                <div style="margin-top: auto; padding-top: 14px;">
+                  <span class="meta-chip" style="width: 100%; justify-content: center; background: var(--bg-subtle);">
+                    <i class="fas fa-check"></i> Eksplorasi Langsung Lab Komputer
+                  </span>
+                </div>
+              </div>
+
+              <!-- Media 2: Slide Canva Sistem Komputer -->
+              <div class="artifact-showcase-card">
+                <span class="artifact-showcase-badge"><i class="fas fa-sliders"></i> Presentasi Multimedia</span>
+                <h3 class="artifact-showcase-title">Slide Canva Diagram Alur Pemrosesan</h3>
+                <p class="artifact-showcase-desc" style="text-align: justify;">
+                  Slide visual berbasis Canva yang memproyeksikan diagram blok alur data dari perangkat input menuju
+                  central processor hingga dikeluarkan ke monitor dengan warna dan ikon yang memikat perhatian murid.
+                </p>
+                <div style="margin-top: auto; padding-top: 14px;">
+                  <a href="https://canva.link/kqqkwloqn8wjgd7" target="_blank" rel="noopener noreferrer"
+                    class="btn-doc-view" style="width: 100%; text-align: center;">
+                    <i class="fas fa-arrow-up-right-from-square"></i> Buka Canva Presentasi
+                  </a>
+                </div>
+              </div>
+
+              <!-- Media 3: Dokumen Naskah Soal UHB 1 -->
+              <div class="artifact-showcase-card">
+                <span class="artifact-showcase-badge"><i class="fas fa-file-signature"></i> Instrumen Evaluasi</span>
+                <h3 class="artifact-showcase-title">Naskah Soal UHB 1 Kelas 7</h3>
+                <p class="artifact-showcase-desc" style="text-align: justify;">
+                  Naskah soal ulangan bersama yang mencakup studi kasus pengenalan komponen komputer, fungsi port
+                  periferal, dan klasifikasi perangkat keras informatika SMP Negeri 18 Malang.
+                </p>
+                <div style="margin-top: auto; padding-top: 14px;">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%203/Pertemuan%202/SOAL%20UHB%20Kelas%20VII%20SMP%20N%2018%20Malang.pdf"
+                    target="_blank" class="btn-doc-view" style="width: 100%; text-align: center;">
+                    <i class="fas fa-file-pdf"></i> Unduh Naskah Soal UHB 1 (PDF)
+                  </a>
+                </div>
+              </div>
+
+              <!-- Media 4: Format Kisi-Kisi Penilaian UHB 1 -->
+              <div class="artifact-showcase-card">
+                <span class="artifact-showcase-badge"><i class="fas fa-list-check"></i> Pedoman Asesmen</span>
+                <h3 class="artifact-showcase-title">Format Kisi-Kisi UHB 1 Kelas 7D</h3>
+                <p class="artifact-showcase-desc" style="text-align: justify;">
+                  Dokumen pemetaan capaian pembelajaran, indikator ketercapaian, bobot tingkat kognitif, dan kunci
+                  rubrik
+                  penskoran UHB 1 Informatika Fase D SMPN 18 Malang.
+                </p>
+                <div style="margin-top: auto; padding-top: 14px;">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%203/Pertemuan%202/Format%20Kisi-Kisi%20UHB%201%20Kls%207D%2026-27.pdf"
+                    target="_blank" class="btn-doc-view" style="width: 100%; text-align: center;">
+                    <i class="fas fa-file-pdf"></i> Unduh Format Kisi-Kisi UHB 1 (PDF)
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Analisis Artefak Produk Media Pembelajaran Siklus 3 -->
+            <div class="analysis-box-container">
+              <div
+                style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+                <h3
+                  style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                  <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Media Pembelajaran
+                  (Siklus
+                  3)
+                </h3>
+                <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Kajian Efektivitas
+                  Media dan Keterpaduan Pembelajaran</span>
+              </div>
+
+              <div class="analysis-point-grid">
+                <div class="analysis-point-card">
+                  <h4><i class="fas fa-bullseye"></i> 1. Kesesuaian Media dengan Materi Pembelajaran</h4>
+                  <p>
+                    Media pembelajaran terdiri atas unit komputer fisik, presentasi multimedia Canva, dan instrumen
+                    evaluasi UHB 1. Ketiganya mendukung materi Sistem Komputer, khususnya pengenalan hardware, software,
+                    dan brainware. Penggunaan media realia membantu murid menghubungkan konsep dalam presentasi dengan
+                    bentuk dan fungsi komponen komputer secara langsung.
+                  </p>
+                </div>
+
+                <div class="analysis-point-card">
+                  <h4><i class="fas fa-desktop"></i> 2. Efektivitas Media Realia dalam Eksplorasi Laboratorium</h4>
+                  <p>
+                    Pemanfaatan desktop PC di laboratorium SMPN 18 Malang memberikan pengalaman belajar konkret melalui
+                    pengamatan port, kabel konektor, tombol operasional, dan lampu indikator LED. Media ini membantu
+                    murid memahami fungsi perangkat keras berdasarkan objek nyata, sehingga pembelajaran tidak hanya
+                    bergantung pada penjelasan teoritis.
+                  </p>
+                </div>
+
+                <div class="analysis-point-card">
+                  <h4><i class="fas fa-palette"></i> 3. Kualitas Visual dan Penyajian Presentasi Multimedia</h4>
+                  <p>
+                    Slide Canva menyajikan ilustrasi dan diagram alur pemrosesan data dari perangkat input menuju
+                    prosesor hingga menghasilkan output pada monitor. Visualisasi ini mendukung materi pengelompokan
+                    hardware menjadi input, process, output, dan storage serta membantu murid memahami hubungan
+                    antarkomponen dalam sistem komputer.
+                  </p>
+                </div>
+
+                <div class="analysis-point-card">
+                  <h4><i class="fas fa-clipboard-check"></i> 4. Kesesuaian Instrumen Evaluasi dengan Materi</h4>
+                  <p>
+                    Naskah soal dan kisi-kisi UHB 1 digunakan untuk mengukur pemahaman murid mengenai komponen komputer,
+                    fungsi port periferal, dan klasifikasi perangkat keras. Penggunaan kisi-kisi membantu memastikan
+                    soal memiliki indikator dan tingkat kognitif yang terarah. Instrumen ini melengkapi media
+                    pembelajaran dengan memberikan gambaran ketercapaian kompetensi murid setelah mempelajari materi
+                    Sistem Komputer.
+                  </p>
+                </div>
+
+                <div class="analysis-point-card full-width">
+                  <h4><i class="fas fa-sliders"></i> 5. Kelebihan, Keterbatasan &amp; Rekomendasi</h4>
+                  <p>
+                    <strong>Kelebihan:</strong> Kombinasi media realia dan presentasi Canva menciptakan pembelajaran
+                    yang
+                    konkret dan visual. Murid dapat mengamati perangkat secara langsung sekaligus memahami konsep
+                    melalui
+                    ilustrasi. Instrumen UHB 1 juga mendukung evaluasi ketercapaian pembelajaran.
+                    <br>
+                    <strong>Keterbatasan:</strong> Media presentasi masih cenderung bersifat satu arah, sedangkan
+                    eksplorasi perangkat komputer membutuhkan pengawasan dan pengaturan waktu agar seluruh murid
+                    memperoleh kesempatan yang merata. Selain itu, materi presentasi lebih banyak mengenalkan komponen
+                    daripada memperlihatkan simulasi hubungan kerja antarkomponen.
+                    <br>
+                    <strong>Rekomendasi Perbaikan:</strong> Menambahkan simulasi interaktif alur kerja
+                    input-process-output-storage, menyediakan lembar observasi saat eksplorasi laboratorium, serta
+                    mengembangkan soal berbasis kasus untuk mengukur kemampuan analisis dan pemecahan masalah murid.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ============================================ -->
+          <!-- CYCLE BOTTOM PAGER NAVIGATION                -->
+          <!-- ============================================ -->
+          <div class="cycle-pager">
+            <a href="ppl-mandiri-siklus2.html" class="cycle-pager-btn prev">
+              <i class="fas fa-arrow-left"></i> Kembali ke Siklus 2
+            </a>
+            <a href="ppl-mandiri.html" class="cycle-pager-btn hub">
+              <i class="fas fa-th-large"></i> Portal PPL Mandiri
+            </a>
+            <a href="ppl-mandiri-siklus4.html" class="cycle-pager-btn next">
+              Lanjut ke Siklus 4 <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+
+        </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Portofolio PPG 2026</h3>
+          <p>
+            Portofolio Seminar Pendidikan Profesi Guru (PPG) Prajabatan 2026. Dikembangkan dengan dedikasi tinggi
+            mengusung tema warna <strong>Hijau Army</strong> untuk mencerminkan ketangguhan, ketenangan, dan
+            profesionalisme pendidik.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi Siklus</h4>
+          <div class="footer-links">
+            <a href="ppl-mandiri.html"><i class="fas fa-angle-right"></i> Portal PPL Mandiri</a>
+            <a href="ppl-mandiri-siklus1.html"><i class="fas fa-angle-right"></i> Siklus 1</a>
+            <a href="ppl-mandiri-siklus2.html"><i class="fas fa-angle-right"></i> Siklus 2</a>
+            <a href="ppl-mandiri-siklus3.html"><i class="fas fa-angle-right"></i> Siklus 3</a>
+            <a href="ppl-mandiri-siklus4.html"><i class="fas fa-angle-right"></i> Siklus 4</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tautan Penting</h4>
+          <div class="footer-links">
+            <a href="https://ppg.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Portal PPG Kemdikbud</a>
+            <a href="https://kurikulum.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Kurikulum Merdeka</a>
+            <a href="profil.html"><i class="fas fa-external-link-alt"></i> Kontak Pendidik</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Portofolio Seminar PPG 2026. Hak Cipta Dilindungi. Dibuat dengan HTML, CSS, &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

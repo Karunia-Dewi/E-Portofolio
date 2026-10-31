@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Siklus 2 Praktik Pengalaman Lapangan (PPL) Mandiri - Portofolio Seminar PPG 2026 Siti Karunia Dewi. Meliputi Perencanaan Pembelajaran, Materi Pembelajaran, Video Praktik Mengajar, dan Media Pembelajaran Sistem Komputer Fase D SMPN 18 Malang.">
+  <meta name="keywords"
+    content="Siklus 2 PPL Mandiri, Sistem Komputer, Hardware, Software, Brainware, Quizizz, Evaluasi Berpikir Komputasional, PPG Informatika, Universitas Negeri Malang, Siti Karunia Dewi">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>Siklus 2 — Praktik Pengalaman Lapangan Mandiri | Siti Karunia Dewi</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle active" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item active">
+              <i class="fas fa-school"></i> PPL Mandiri Hub
+            </a>
+            <a href="ppl-mandiri-siklus1.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 1
+            </a>
+            <a href="ppl-mandiri-siklus2.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 2
+            </a>
+            <a href="ppl-mandiri-siklus3.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 3
+            </a>
+            <a href="ppl-mandiri-siklus4.html" class="dropdown-item">
+              <i class="fas fa-rotate"></i> Siklus 4
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Drawer Toggler -->
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT AREA                          -->
+  <!-- ========================================== -->
+  <main class="page-content">
+    <section class="page-section">
+      <div class="container">
+
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-nav">
+          <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="ppl.html"><i class="fas fa-chalkboard-user"></i> PPL</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="ppl-mandiri.html">PPL Mandiri</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <span class="current">Siklus 2</span>
+        </div>
+
+        <!-- Detail Header Card -->
+        <div class="detail-header-card">
+          <span class="section-tag"><i class="fas fa-rotate"></i> Siklus 2 — Praktik Lapangan Mandiri </span>
+          <h1 class="section-title" style="font-size: 2.2rem; margin-top: 10px; margin-bottom: 12px;">
+            Siklus 2 — Praktik Pengalaman Lapangan Mandiri
+          </h1>
+          <p class="section-subtitle"
+            style="font-size: 1.05rem; max-width: 1100px; line-height: 1.7; text-align: justify;">
+            Dokumentasi komprehensif pelaksanaan pengajaran mandiri Siklus 2 pada <strong>Informatika Fase D (Kelas
+              VII-D &amp; VII-E) SMP Negeri 18 Malang</strong>.
+            Fokus pembelajaran pada siklus ini adalah pelaksanaan <strong>Evaluasi Sumatif Berpikir Komputasional
+              berbantuan platform gamifikasi Quizizz</strong> serta pengenalan mendalam materi <strong>Sistem Komputer
+              (Hubungan Hardware, Software, dan Brainware)</strong> dengan metode investigasi terbimbing.
+          </p>
+
+          <div class="detail-meta-chips">
+            <div class="meta-chip">
+              <i class="fas fa-user-tie"></i>
+              <span>Penyusun: Siti Karunia Dewi</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-school"></i>
+              <span>SMP Negeri 18 Malang</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-users"></i>
+              <span>Kelas: VIID &amp; VIIE </span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-desktop"></i>
+              <span>Materi: Evaluasi BK &amp; SK</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-gamepad"></i>
+              <span>Integrasi:Quizizz &amp; PBL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- SUBMENU / TAB NAVIGASI 4 KATEGORI SIKLUS 2   -->
+        <!-- ============================================ -->
+        <nav class="cycle-submenu-nav" aria-label="Navigasi Kategori Siklus 2">
+          <a href="#perencanaan" class="cycle-submenu-link active">
+            <i class="fas fa-clipboard-list"></i> 1. Perencanaan Pembelajaran
+          </a>
+          <a href="#materi" class="cycle-submenu-link">
+            <i class="fas fa-book-open"></i> 2. Materi Pembelajaran
+          </a>
+          <a href="#video" class="cycle-submenu-link">
+            <i class="fas fa-video"></i> 3. Video Praktik Mengajar
+          </a>
+          <a href="#media" class="cycle-submenu-link">
+            <i class="fas fa-cubes"></i> 4. Media Pembelajaran
+          </a>
+        </nav>
+
+        <!-- ======================================================== -->
+        <!-- 3.1 PERENCANAAN PEMBELAJARAN SIKLUS 2                    -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="perencanaan" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-clipboard-list"></i> 1. Perencanaan Pembelajaran Siklus 2
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Perangkat ajar dan kisi-kisi instrumen evaluasi Siklus 2 yang memadukan asesmen capaian berpikir
+                komputasional dengan rancangan pembelajaran materi Sistem Komputer berbasis diferensiasi kelas 7D dan
+                7E.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-file-shield"></i> 3 Perangkat RPP &amp; Kisi-Kisi
+            </span>
+          </div>
+
+          <!-- Grid Berkas RPP Siklus 2 -->
+          <div class="highlights-bar"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; margin-bottom: 24px;">
+
+            <!-- Modul 2.1 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%202/Pertemuan%201/Kisi-kisi_Ulangan_Harian_7D.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-lines"></i></div>
+              <div class="highlight-info">
+                <h3>Kisi-Kisi Ulangan Harian 7D</h3>
+                <p>Panduan Asesmen Sumatif Berpikir Komputasional • 176 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Modul 2.2 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%202/Pertemuan%202/RPP_Sistem%20Komputer_7D.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Sistem Komputer — Kelas 7D</h3>
+                <p>Modul Ajar Hubungan Hardware-Software-Brainware • 392 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Modul 2.3 -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Artefak%20Produk/Siklus%202/Pertemuan%203/RPP_Sistem%20Komputer_7E.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>RPP Sistem Komputer — Kelas 7E</h3>
+                <p>Modul Ajar Pembelajaran Sistem Komputer 7E • 388 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+
+          <!-- Analisis Artefak Produk Perencanaan Pembelajaran Siklus 2 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Perencanaan Pembelajaran
+                (Siklus 2)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Telaah Pedagogis 6
+                Dimensi</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bullseye"></i> 1. Kesesuaian Tujuan Pembelajaran dengan CP &amp; TP</h4>
+                <p>
+                  Perencanaan Siklus 2 mencakup dua fokus esensial: memvalidasi ketercapaian TP Berpikir Komputasional
+                  melalui evaluasi sumatif, dan mengantarkan peserta didik pada Elemen Sistem Komputer (SK) Fase D untuk
+                  memahami bahwa sistem komputer merupakan kesatuan utuh yang terdiri dari perangkat keras (hardware),
+                  perangkat lunak (software), dan pengguna (brainware).
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-gamepad"></i> 2. Kesesuaian Model PBL &amp; Asesmen Gamifikasi</h4>
+                <p>
+                  Rancangan mengombinasikan Problem Based Learning dengan platform gamifikasi kuis Quizizz. Desain ini
+                  secara terencana mereduksi kecemasan tes (<em>test anxiety</em>) murid saat ulangan harian
+                  berlangsung. Murid memandang evaluasi sebagai wahana tantangan bermain yang seru, sekaligus
+                  memfasilitasi guru mendapatkan analitik akurasi jawaban seketika.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-layer-group"></i> 3. Penerapan Prinsip TaRL &amp; Kurikulum Merdeka</h4>
+                <p>
+                  Hasil ulangan harian pada pertemuan 1 secara langsung digunakan sebagai data diagnostik untuk
+                  mengimplementasikan pendekatan <em>Teaching at the Right Level (TaRL)</em>. Siswa yang telah tuntas
+                  diberikan studi kasus pengayaan perangkat komputasi modern, sedangkan siswa yang belum tuntas
+                  mendapatkan scaffolding dan pendampingan tutor sebaya.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-clipboard-check"></i> 4. Keselarasan Asesmen dengan Kisi-Kisi</h4>
+                <p>
+                  Kisi-kisi ulangan harian dirancang berbasis indikator capaian kognitif tingkat pemahaman (C2),
+                  aplikasi (C3), dan analisis (C4). Setiap butir soal menguji kemampuan penalaran logika dan pemecahan
+                  masalah secara objektif.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-scale-balanced"></i> 5. Kekuatan Produk, Kendala &amp; Rekomendasi</h4>
+                <p>
+                  <strong>Kekuatan:</strong> Perencanaan modul tersinkronisasi rapi antara kelas 7D dan 7E dengan
+                  mempertimbangkan ritme belajar masing-masing kelas; format kisi-kisi mempermudah transparansi
+                  penilaian.
+                  <br>
+                  <strong>Kendala:</strong> Pada RPP pertemuan 2, alokasi waktu sesi pembahasan live feedback kuis
+                  Quizizz belum memperhitungkan diskusi mendalam untuk soal dengan tingkat kesalahan siswa yang tinggi.
+                  <br>
+                  <strong>Rekomendasi Perbaikan:</strong> Menyediakan rubrik feedback terfokus khusus untuk 3 soal yang
+                  paling banyak dijawab keliru agar sesi pembahasan tidak memotong alokasi waktu materi pengantar
+                  perangkat keras.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.2 MATERI PEMBELAJARAN SIKLUS 2                         -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="materi" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-book-open"></i> 2. Materi Pembelajaran Siklus 2
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Naskah soal ulangan harian, dokumen rekapitulasi capaian nilai peserta didik kelas 7D, materi presentasi
+                Sistem Komputer, serta foto penerapan KBM di kelas/lab komputer.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-layer-group"></i> Naskah Soal, Rekap Nilai &amp; Materi PPT
+            </span>
+          </div>
+
+          <!-- Grid Berkas Materi Siklus 2 -->
+          <div class="highlights-bar"
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 16px; margin-bottom: 24px;">
+
+            <!-- Naskah Soal UH -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%202/Pertemuan%201/SOAL%20ULANGAN%20HARIAN%20KELAS%207D%20INFORMATIKA.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+              <div class="highlight-info">
+                <h3>Naskah Soal Ulangan Harian 7D</h3>
+                <p>Soal Evaluasi Berpikir Komputasional • 141 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Rekap Nilai Siswa -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%202/Pertemuan%201/Hasil%20Ulangan%20Harian%20Berpikir%20Komputasional%20Kelas%207D.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-chart-column"></i></div>
+              <div class="highlight-info">
+                <h3>Rekap Nilai Siswa Kelas 7D</h3>
+                <p>Data Hasil Evaluasi Sumatif Siswa • 242 KB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+
+            <!-- Materi Sistem Komputer PPT -->
+            <a href="assets/docs/PPL/PPL%20Mandiri/Materi%20Pembelajaran/Siklus%202/Pertemuan%202/Materi%20Sistem%20Komputer%20Presentasi.pdf"
+              target="_blank" class="highlight-card" style="text-decoration: none;">
+              <div class="highlight-icon"><i class="fas fa-file-powerpoint"></i></div>
+              <div class="highlight-info">
+                <h3>Materi Presentasi Sistem Komputer</h3>
+                <p>Slide Interaktif Hardware &amp; Software • 1.4 MB</p>
+              </div>
+              <div style="align-self: center; color: var(--primary-army); opacity: 0.7;"><i
+                  class="fas fa-arrow-up-right-from-square"></i></div>
+            </a>
+          </div>
+
+          <!-- Galeri Foto Dokumentasi Penerapan Materi Siklus 2 -->
+          <div style="margin-bottom: 24px;">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; flex-wrap: wrap; gap: 8px;">
+              <h4
+                style="font-size: 1.05rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-camera"></i> Dokumentasi Penerapan Materi di Kelas 7D (Siklus 2)
+              </h4>
+              <span class="meta-chip"
+                style="font-size: 0.8rem; background: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+                Aktivitas Nyata Peserta Didik
+              </span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px;">
+              <!-- Dok 4 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%204.jpeg" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%204.jpeg"
+                      alt="Pengerjaan Tugas Digital Mandiri" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-laptop" style="color: var(--primary-army); margin-right: 6px;"></i> Pengerjaan
+                    Tugas Digital</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%204.jpeg" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 6 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%206.jpeg" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%206.jpeg"
+                      alt="Evaluasi Kuis Quizizz" loading="lazy" style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-gamepad" style="color: var(--primary-army); margin-right: 6px;"></i> Evaluasi
+                    Kuis Quizizz</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%206.jpeg" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+
+              <!-- Dok 11 -->
+              <div
+                style="border-radius: var(--radius-md); overflow: hidden; border: 1px solid var(--border-color); background: var(--bg-surface); box-shadow: var(--shadow-sm);">
+                <div style="aspect-ratio: 4/3; overflow: hidden; background: var(--bg-subtle);">
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%2011.png" target="_blank"
+                    title="Lihat resolusi penuh">
+                    <img src="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%2011.png"
+                      alt="Penjelasan Slide Presentasi" loading="lazy"
+                      style="width: 100%; height: 100%; object-fit: cover;">
+                  </a>
+                </div>
+                <div
+                  style="padding: 10px 14px; font-size: 0.82rem; font-weight: 600; color: var(--text-main); display: flex; align-items: center; justify-content: space-between;">
+                  <span><i class="fas fa-person-chalkboard" style="color: var(--primary-army); margin-right: 6px;"></i>
+                    Paparan Materi Sistem Komputer</span>
+                  <a href="assets/docs/PPL/PPL%20Mandiri/Dokumentasi%20Penerapan%20Materi/Dok%2011.png" target="_blank"
+                    style="color: var(--text-secondary);"><i class="fas fa-arrow-up-right-from-square"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Analisis Artefak Produk Materi Pembelajaran Siklus 2 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Materi Pembelajaran (Siklus
+                2)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Analisis Hasil Belajar
+                &amp; Kualitas Bahan</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-square-poll-vertical"></i> 1. Analisis Ketuntasan Capaian Ulangan Harian</h4>
+                <p>
+                  Berdasarkan dokumen rekapitulasi nilai Ulangan Harian Berpikir Komputasional kelas 7D, mayoritas murid
+                  berhasil mencapai Kriteria Ketercapaian Tujuan Pembelajaran (KKTP). Nilai rata-rata kelas menunjukkan
+                  peningkatan signifikan dibandingkan tes diagnostik awal, membuktikan bahwa integrasi media visual dan
+                  aktivitas unplugged di Siklus 1 berhasil menginternalisasi konsep logika secara kokoh.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-network-wired"></i> 2. Ketepatan Konseptual Materi Sistem Komputer</h4>
+                <p>
+                  Materi Sistem Komputer memetakan konsep fundamental arsitektur komputasi: bagaimana hardware
+                  memerlukan instruksi dari software sistem operasi dan aplikasi, serta bagaimana peran sentral
+                  brainware (manusia) sebagai pengendali teknologi. Penyajian materi menghindari jebakan hafalan nama
+                  perangkat, berfokus pada fungsi dan interkoneksinya.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-mobile-screen-button"></i> 3. Relevansi Kontekstual dengan Pengalaman Murid</h4>
+                <p>
+                  Materi mengaitkan perangkat keras dan lunak dengan piranti yang dipakai murid sehari-hari (smartphone,
+                  tablet, dan laptop). Contoh kasus seperti aplikasi yang tertutup tiba-tiba (<em>force
+                    close</em>) dikorelasikan langsung dengan keterbatasan memori kerja (RAM), sehingga materi terasa
+                  sangat realistis dan bermanfaat.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-lightbulb"></i> 4. Daya Nalar &amp; Pemahaman Sistemik</h4>
+                <p>
+                  Bahan ajar membiasakan peserta didik berpikir sistemik (<em>systems thinking</em>). Murid diajak
+                  memahami bahwa kegagalan satu komponen dapat memengaruhi fungsi keseluruhan sistem komputer,
+                  merangsang rasa penasaran untuk mempelajari anatomi perangkat keras secara lebih mendalam.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-sliders"></i> 5. Kelebihan, Keterbatasan &amp; Rekomendasi</h4>
+                <p>
+                  <strong>Kelebihan:</strong> Transparansi hasil evaluasi dan penyajian slide materi yang kaya ilustrasi
+                  perangkat modern membuat murid sangat antusias.
+                  <br>
+                  <strong>Keterbatasan:</strong> Materi presentasi masih didominasi gambar 2 dimensi, sehingga beberapa
+                  murid masih belum memiliki gambaran spasial mengenai wujud fisik asli bagian dalam komputer.
+                  <br>
+                  <strong>Rekomendasi Perbaikan:</strong> Mengembangkan materi ke tahap observasi langsung perangkat
+                  komputer fisik di lab (yang direncanakan untuk Siklus 3 dan 4).
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.3 VIDEO PRAKTIK MENGAJAR SIKLUS 2                      -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="video" style="margin-bottom: 45px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-video"></i> 3. Video Praktik Mengajar Siklus 2
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Dokumentasi video lengkap pelaksanaan KBM Siklus 2 (durasi 41 menit) yang memperlihatkan dinamika ujian
+                gamifikasi Quizizz dan pembelajaran materi Sistem Komputer di lab komputer SMPN 18 Malang.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-film"></i> Video Praktik Mengajar Penuh
+            </span>
+          </div>
+
+          <!-- Video Player Showcase Siklus 2 -->
+          <div class="artifact-showcase-card" style="border-top: 4px solid var(--accent-gold); margin-bottom: 24px;">
+            <div
+              style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; margin-bottom: 8px;">
+              <span class="artifact-showcase-badge"><i class="fas fa-play"></i> Praktik Mengajar Mandiri — Siklus
+                2</span>
+              <span class="meta-chip" style="font-size: 0.8rem; background: var(--bg-subtle);"><i
+                  class="fas fa-clock"></i> 41 Menit 52 Detik</span>
+            </div>
+            <h3 class="artifact-showcase-title">Rekaman Video Pembelajaran Siklus 2</h3>
+            <p class="artifact-showcase-desc" style="text-align: justify;">
+              Dokumentasi video utuh KBM Informatika Fase D Siklus 2: pelaksanaan ulangan harian Berpikir Komputasional
+              berbantuan Quizizz, live review pembahasan soal, penyampaian konsep Sistem Komputer (Hardware, Software,
+              Brainware), dan pendampingan diferensiasi di laboratorium komputer.
+            </p>
+
+            <!-- Video Player (YouTube Embed) -->
+            <div
+              style="margin: 16px 0; border-radius: var(--radius-md); overflow: hidden; background: #000; box-shadow: 0 8px 32px rgba(0,0,0,0.25); position: relative; padding-bottom: 56.25%; height: 0;">
+              <iframe src="https://www.youtube.com/embed/0RFa5e_ZA8c" title="Video Praktik Mengajar Siklus 2 - PPL Mandiri"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: var(--radius-md);"></iframe>
+            </div>
+
+            <!-- Video Info Bar -->
+            <div class="video-info-bar">
+              <span><i class="fas fa-circle-play" style="color: var(--primary-army);"></i> <strong>Siklus 2</strong> —
+                Praktik KBM</span>
+              <span><i class="fas fa-stopwatch" style="color: var(--primary-army);"></i> Durasi: 41:52</span>
+              <span><i class="fas fa-file-video" style="color: var(--primary-army);"></i> Ukuran: 2.48 GB</span>
+              <span><i class="fas fa-chalkboard" style="color: var(--primary-army);"></i> Model: PBL &amp; Gamifikasi
+                Quizizz</span>
+              <span><i class="fas fa-desktop" style="color: var(--primary-army);"></i> Lab Komputer SMPN 18
+                Malang</span>
+            </div>
+
+            <div style="margin-top: 14px; display: flex; gap: 10px; flex-wrap: wrap;">
+              <a href="https://youtu.be/0RFa5e_ZA8c"
+                target="_blank" rel="noopener noreferrer" class="btn-doc-view"
+                style="flex: 1; text-align: center; background-color: var(--primary-army-soft); color: var(--primary-army);">
+                <i class="fab fa-youtube"></i> Tonton di YouTube — Siklus 2
+              </a>
+            </div>
+          </div>
+
+          <!-- Analisis Video Praktik Mengajar Siklus 2: 3 Dimensi -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Video Praktik Mengajar 3 Dimensi (Siklus 2)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Pendahuluan · Inti ·
+                Penutup</span>
+            </div>
+
+            <div style="display: flex; flex-direction: column; gap: 18px;">
+              <!-- Dimensi A -->
+              <div class="analysis-point-card" style="border-left-color: var(--primary-army);">
+                <h4><i class="fas fa-door-open"></i> A. Kegiatan Pendahuluan</h4>
+                <p>
+                  Guru membuka KBM di laboratorium komputer dengan senyuman dan sapaan hangat, memimpin doa, dan
+                  mengecek kesiapan perangkat PC yang digunakan setiap murid. Apersepsi dilakukan dengan me-review kilas
+                  balik materi Berpikir Komputasional yang telah dipelajari di Siklus 1. Guru memberikan instruksi
+                  teknis pengaksesan kode pin kuis Quizizz secara jelas, menanamkan nilai kejujuran akademik, serta
+                  mengumumkan aturan main kompetisi yang sportif.
+                </p>
+              </div>
+
+              <!-- Dimensi B -->
+              <div class="analysis-point-card" style="border-left-color: var(--accent-sage);">
+                <h4><i class="fas fa-gears"></i> B. Kegiatan Inti</h4>
+                <p>
+                  Pelaksanaan kegiatan inti terbagi dalam dua sesi terencana: Pertama, pengerjaan evaluasi sumatif
+                  melalui platform Quizizz; suasana kelas hening namun tampak bersemangat saat murid fokus membaca soal
+                  di monitor. Selesai pengerjaan, guru langsung memproyeksikan dasbor hasil analitik dan membedah 3 soal
+                  paling menantang bersama-sama. Kedua, transisi materi ke konsep Sistem Komputer; guru menyajikan
+                  materi presentasi interaktif dan mengajak murid menunjuk komponen fisik di meja komputer mereka
+                  (keyboard, mouse, layar monitor, CPU), menciptakan interaksi dua arah yang aktif dan menyenangkan.
+                </p>
+              </div>
+
+              <!-- Dimensi C -->
+              <div class="analysis-point-card" style="border-left-color: var(--accent-gold);">
+                <h4><i class="fas fa-flag-checkered"></i> C. Kegiatan Penutup</h4>
+                <p>
+                  Guru mengumumkan peraih nilai tertinggi pada leaderboard Quizizz dan memberikan apresiasi tepuk tangan
+                  bagi seluruh murid atas perjuangan belajarnya. Guru memandu perumusan kesimpulan mengenai keterkaitan
+                  hardware, software, dan brainware, lalu memberikan penugasan observasi perangkat di rumah. Kelas
+                  diakhiri dengan pembiasaan mematikan komputer sesuai prosedur (<em>shutdown</em>), merapikan kursi,
+                  doa, dan salam.
+                </p>
+              </div>
+
+              <!-- Refleksi Pelaksanaan Praktik Mengajar -->
+              <div
+                style="background: var(--bg-subtle); padding: 18px 20px; border-radius: var(--radius-md); border: 1px dashed var(--border-color); line-height: 1.7; font-size: 0.9rem;">
+                <h4 style="font-size: 0.95rem; font-weight: 700; color: var(--primary-army); margin-bottom: 8px;">
+                  <i class="fas fa-clipboard-check"></i> Refleksi Pelaksanaan Siklus 2 (Praktik Baik, Kendala &amp;
+                  Rencana Perbaikan):
+                </h4>
+                <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 8px;">
+                  <li><strong><i class="fas fa-check-circle" style="color: var(--primary-army);"></i> Praktik
+                      Baik:</strong> Pemanfaatan Quizizz terbukti sangat efektif mengubah atmosfer ulangan yang
+                    menegangkan menjadi sarana asesmen yang dirayakan dengan riang gembira; analitik instan sangat
+                    membantu diagnostik guru.</li>
+                  <li><strong><i class="fas fa-triangle-exclamation" style="color: #c29349;"></i> Kendala yang
+                      Dihadapi:</strong> Mengelola KBM durasi panjang (41 menit) dengan dua aktivitas berbeda menuntut
+                    energi manajerial tinggi, terutama memastikan seluruh komputer lab tersambung jaringan lancar.</li>
+                  <li><strong><i class="fas fa-arrow-trend-up" style="color: var(--primary-army);"></i> Rencana
+                      Perbaikan untuk Siklus 3:</strong> Mengatur ritme transisi antarmateri lebih terencana, memastikan
+                    pengecekan perangkat lab 15 menit sebelum masuk kelas, serta mengarahkan eksplorasi perangkat keras
+                    secara lebih terfokus.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- 3.4 MEDIA PEMBELAJARAN SIKLUS 2                          -->
+        <!-- ======================================================== -->
+        <div class="content-block" id="media" style="margin-bottom: 40px; scroll-margin-top: 140px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-cubes"></i> 4. Media Pembelajaran Siklus 2
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem; text-align: justify;">
+                Media gamifikasi digital interaktif, presentasi visual Canva sistem komputer, dan instrumen asesmen yang
+                dimanfaatkan pada Siklus 2.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-gamepad"></i> Quizizz &amp; Slide Canva
+            </span>
+          </div>
+
+          <!-- Grid Media Siklus 2 -->
+          <div class="media-grid-2x2">
+            <!-- Media 1: Quizizz Interaktif -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-gamepad"></i> Platform Gamifikasi Kuis</span>
+              <h3 class="artifact-showcase-title">Kuis Interaktif Quizizz (Koleksi BK)</h3>
+              <p class="artifact-showcase-desc" style="text-align: justify;">
+                Platform evaluasi berbasis gamifikasi kompetitif yang menyajikan soal-soal penalaran Berpikir
+                Komputasional dengan fitur papan peringkat real-time, efek musik pemacu semangat, dan laporan akurasi
+                per butir soal.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="https://wayground.com/profile/6ab3744ae40484caa306da83/collections/6ae2940da3584e2aced08f6c"
+                  target="_blank" rel="noopener noreferrer" class="btn-doc-view"
+                  style="width: 100%; text-align: center;">
+                  <i class="fas fa-arrow-up-right-from-square"></i> Buka Koleksi Kuis Quizizz
+                </a>
+              </div>
+            </div>
+
+            <!-- Media 2: Slide Canva Sistem Komputer -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-sliders"></i> Presentasi Multimedia</span>
+              <h3 class="artifact-showcase-title">Slide Canva Sistem Komputer</h3>
+              <p class="artifact-showcase-desc" style="text-align: justify;">
+                Media presentasi visual berbasis Canva yang memetakan hubungan antara hardware, software sistem operasi,
+                software aplikasi, dan peran brainware dengan tata letak grafis yang modern dan mudah dipahami.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="https://canva.link/kqqkwloqn8wjgd7" target="_blank" rel="noopener noreferrer"
+                  class="btn-doc-view" style="width: 100%; text-align: center;">
+                  <i class="fas fa-arrow-up-right-from-square"></i> Buka Canva Presentasi
+                </a>
+              </div>
+            </div>
+
+
+          </div>
+
+          <!-- Analisis Artefak Produk Media Pembelajaran Siklus 2 -->
+          <div class="analysis-box-container">
+            <div
+              style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; border-bottom: 1px solid var(--border-color); padding-bottom: 12px; flex-wrap: wrap; gap: 8px;">
+              <h3
+                style="font-size: 1.15rem; font-weight: 700; color: var(--primary-army); margin: 0; display: flex; align-items: center; gap: 8px;">
+                <i class="fas fa-magnifying-glass-chart"></i> Analisis Kritis Artefak Produk Media Pembelajaran (Siklus
+                2)
+              </h3>
+              <span class="meta-chip" style="font-size: 0.78rem; background: var(--bg-subtle);">Evaluasi Efektivitas
+                Media</span>
+            </div>
+
+            <div class="analysis-point-grid">
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bullseye"></i> 1. Efektivitas Asesmen Berbasis Gamifikasi</h4>
+                <p>
+                  Quizizz terbukti meningkatkan keterlibatan emosional murid dalam mengerjakan evaluasi secara
+                  signifikan. Format kuis interaktif dengan avatar dan umpan balik langsung mendorong murid membaca soal
+                  dengan teliti dan mengetahui hasil pemahamannya secara transparan tanpa rasa takut salah.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-magnifying-glass-chart"></i> 2. Transparansi &amp; Nilai Diagnostik Media</h4>
+                <p>
+                  Fitur dasbor analitik Quizizz menyajikan persentase akurasi per butir soal. Hal ini memudahkan
+                  pendidik melihat secara instan indikator mana yang sudah dikuasai dengan baik oleh kelas dan indikator
+                  mana yang masih memerlukan penguatan ulang (re-teaching) pada sesi pembahasan.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-sliders"></i> 3. Kualitas Visual Presentasi Canva</h4>
+                <p>
+                  Slide presentasi Canva yang memadukan bagan alur hubungan hardware-software-brainware berhasil
+                  memusatkan perhatian murid. Transisi visual yang rapi membantu murid memahami konsep hierarki sistem
+                  komputer secara bertahap dan teratur.
+                </p>
+              </div>
+
+              <div class="analysis-point-card">
+                <h4><i class="fas fa-bolt"></i> 4. Kelebihan dalam Manajemen Kelas Lab</h4>
+                <p>
+                  Media digital yang dijalankan langsung di komputer laboratorium menciptakan keteraturan kelas yang
+                  tinggi. Setiap anak memiliki fokus visual di monitor masing-masing, meminimalkan gangguan antarmurid
+                  dan melatih kemandirian operasional teknologi.
+                </p>
+              </div>
+
+              <div class="analysis-point-card full-width">
+                <h4><i class="fas fa-wrench"></i> 5. Kendala Teknis &amp; Rekomendasi Solusi</h4>
+                <p>
+                  <strong>Kendala Teknis:</strong> Ketergantungan penuh pada kestabilan koneksi internet sekolah; jika
+                  koneksi tersendat, beberapa siswa mengalami delay dalam memuat pertanyaan berikutnya di Quizizz.
+                  <br>
+                  <strong>Rekomendasi Solusi:</strong> Menyiapkan file cadangan naskah soal berformat PDF di folder
+                  lokal komputer laboratorium, serta mengaktifkan mode pengerjaan kuis fleksibel (<em>homework mode</em>
+                  atau pengerjaan asinkron) jika jaringan lab mengalami gangguan mendadak.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ============================================ -->
+        <!-- CYCLE BOTTOM PAGER NAVIGATION                -->
+        <!-- ============================================ -->
+        <div class="cycle-pager">
+          <a href="ppl-mandiri-siklus1.html" class="cycle-pager-btn prev">
+            <i class="fas fa-arrow-left"></i> Kembali ke Siklus 1
+          </a>
+          <a href="ppl-mandiri.html" class="cycle-pager-btn hub">
+            <i class="fas fa-th-large"></i> Portal PPL Mandiri
+          </a>
+          <a href="ppl-mandiri-siklus3.html" class="cycle-pager-btn next">
+            Lanjut ke Siklus 3 <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>Portofolio PPG 2026</h3>
+          <p>
+            Portofolio Seminar Pendidikan Profesi Guru (PPG) Prajabatan 2026. Dikembangkan dengan dedikasi tinggi
+            mengusung tema warna <strong>Hijau Army</strong> untuk mencerminkan ketangguhan, ketenangan, dan
+            profesionalisme pendidik.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi Siklus</h4>
+          <div class="footer-links">
+            <a href="ppl-mandiri.html"><i class="fas fa-angle-right"></i> Portal PPL Mandiri</a>
+            <a href="ppl-mandiri-siklus1.html"><i class="fas fa-angle-right"></i> Siklus 1</a>
+            <a href="ppl-mandiri-siklus2.html"><i class="fas fa-angle-right"></i> Siklus 2</a>
+            <a href="ppl-mandiri-siklus3.html"><i class="fas fa-angle-right"></i> Siklus 3</a>
+            <a href="ppl-mandiri-siklus4.html"><i class="fas fa-angle-right"></i> Siklus 4</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tautan Penting</h4>
+          <div class="footer-links">
+            <a href="https://ppg.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Portal PPG Kemdikbud</a>
+            <a href="https://kurikulum.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Kurikulum Merdeka</a>
+            <a href="profil.html"><i class="fas fa-external-link-alt"></i> Kontak Pendidik</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Portofolio Seminar PPG 2026. Hak Cipta Dilindungi. Dibuat dengan HTML, CSS, &amp; JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

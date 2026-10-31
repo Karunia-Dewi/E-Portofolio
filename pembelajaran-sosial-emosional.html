@@ -1,0 +1,745 @@
+﻿<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Mata Kuliah Pembelajaran Sosial Emosional - Portofolio Digital Seminar PPG Prajabatan 2026 Universitas Negeri Malang.">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>Pembelajaran Sosial Emosional | Portofolio PPG 2026</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle active" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item">
+              <i class="fas fa-school"></i> PPL Mandiri
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Drawer Toggler -->
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT AREA                          -->
+  <!-- ========================================== -->
+  <main class="page-content">
+    <section class="page-section">
+      <div class="container">
+
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-nav">
+          <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="semester2.html"><i class="fas fa-award"></i> Semester 2</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <span class="current">Pembelajaran Sosial Emosional</span>
+        </div>
+
+        <!-- Detail Header Card -->
+        <div class="detail-header-card">
+          <span class="section-tag"><i class="fas fa-heart"></i> Mata Kuliah Inti - MK 09</span>
+          <h1 class="section-title" style="font-size: 2.2rem; margin-top: 10px; margin-bottom: 12px;">
+            Pembelajaran Sosial Emosional
+          </h1>
+          <p class="section-subtitle" style="font-size: 1.05rem; max-width: 1100px; line-height: 1.7;">
+            Mata kuliah ini membekali calon guru dengan pemahaman kerangka kerja CASEL, integrasi 5 Kompetensi Sosial
+            Emosional (KSE) dalam proses KBM, praktik kesadaran penuh (<em>mindfulness</em>), pengelolaan iklim kelas
+            yang
+            kondusif, aman, dan inklusif, serta penguatan kesejahteraan psikologis (<em>well-being</em>) warga sekolah.
+          </p>
+
+          <div class="detail-meta-chips">
+            <div class="meta-chip">
+              <i class="fas fa-user-tie"></i>
+              <span>Penyusun: Siti Karunia Dewi</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-graduation-cap"></i>
+              <span>PPG Pendidikan Informatika</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-university"></i>
+              <span>Universitas Negeri Malang</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-clock"></i>
+              <span>Bobot: 2 SKS</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-cubes"></i>
+              <span>Kerangka Refleksi: Model 4C</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 1: REPOSITORI BERKAS DOKUMEN      -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="dokumen-tugas" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-folder-open"></i> 1. Dokumen Tugas Mata Kuliah (Per Topik)
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem;">
+                Daftar berkas lembar kerja kerangka CASEL, peran guru teladan, experiential learning, dan implementasi
+                school well-being pada folder <em>Pembelajaran sosial emosional</em>.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-files"></i> Total 19 Berkas PDF
+            </span>
+          </div>
+
+          <div class="topic-container">
+
+            <!-- TOPIK 1 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 1 Pembelajaran Sosial Emosional Berdasar Kerangka CASEL</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 4 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+                <!-- File 1.1 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%201.%20%20Pembelajaran%20Sosial%20Emosional%20Berdasar%20Kerangka%20Collaborative%20For%20Academic,%20Social,%20and%20Emotional/1.B.%20Komponen%20Pembelajaran%20Sosial%20.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">1.B. Komponen Pembelajaran Sosial</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Komponen Inti CASEL • 238 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.2 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%201.%20%20Pembelajaran%20Sosial%20Emosional%20Berdasar%20Kerangka%20Collaborative%20For%20Academic,%20Social,%20and%20Emotional/1.C.%20Studi%20Kasus%20Terpadu.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">1.C. Studi Kasus Terpadu</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Studi Kasus Pembelajaran Emosional • 158 KB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.3 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%201.%20%20Pembelajaran%20Sosial%20Emosional%20Berdasar%20Kerangka%20Collaborative%20For%20Academic,%20Social,%20and%20Emotional/1.D.%20Analisis%20dan%20Sintesis%20PSE%20.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">1.D. Analisis dan Sintesis PSE</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Sintesis Analitik Kerangka PSE • 2.5 MB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 1.4 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%201.%20%20Pembelajaran%20Sosial%20Emosional%20Berdasar%20Kerangka%20Collaborative%20For%20Academic,%20Social,%20and%20Emotional/1.E.%20Penerapan%20dan%20Eva.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">1.E. Penerapan &amp; Evaluasi PSE</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Evaluasi Ketercapaian KSE • 524 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 2 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 2 Peran Guru Sebagai Teladan</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 4 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+                <!-- File 2.1 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%202.%20Peran%20Guru%20Sebagai%20Teladan/2.A.%20Peran%20Guru%20Sebagai%20Teladan.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">2.A. Peran Guru Sebagai Teladan</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Keteladanan Emosional Guru • 137 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.2 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%202.%20Peran%20Guru%20Sebagai%20Teladan/2.B.%20Pembelajaran%20Sosial%20Emosional.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">2.B. Pembelajaran Sosial Emosional</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Penguatan Sikap Pendidik • 183 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.3 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%202.%20Peran%20Guru%20Sebagai%20Teladan/2.C.%20Studi%20Kasus%20Terpadu%20Karakteristik%20Guru.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">2.C. Studi Kasus Karakteristik Guru</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Analisis Respon Situasional • 374 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 2.4 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%202.%20Peran%20Guru%20Sebagai%20Teladan/2.D.%20PSE%20untuk%20Mengembangkan%20Diri%20Guru.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">2.D. PSE untuk Mengembangkan Diri Guru</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Pengembangan Diri &amp; Regulasi Diri • 235
+                      KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 3 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 3 Experiential Learning untuk Pembelajaran Sosial Emosional</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 5 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 3.1 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%203.%20Experiential%20Learning%20untuk%20Pembelajaran%20Sosial%20Emosional/3.A.%20Experiential%20Learning%20Di%20Sekolah.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">3.A. Experiential Learning Di Sekolah</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Konsep Siklus Belajar Kolb • 120 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.2 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%203.%20Experiential%20Learning%20untuk%20Pembelajaran%20Sosial%20Emosional/3.B.%20Penerapan%20Experiential%20Learning%20Di%20Sekolah.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">3.B. Penerapan Experiential Learning Di Sekolah
+                    </h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Implementasi Praktik Nyata • 227 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.3 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%203.%20Experiential%20Learning%20untuk%20Pembelajaran%20Sosial%20Emosional/3.C.%20Studi%20Kasus%20Terpadu%20Strategi%20Menerapkan.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">3.C. Studi Kasus Strategi Menerapkan</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Strategi &amp; Solusi Pembelajaran • 119 KB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.4 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%203.%20Experiential%20Learning%20untuk%20Pembelajaran%20Sosial%20Emosional/3.D.%20Kaitan%20Experiential%20Learning%20Dan%20PSE.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">3.D. Kaitan Experiential Learning Dan PSE</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Korelasi Belajar Berbasis Pengalaman • 396
+                      KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 3.5 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%203.%20Experiential%20Learning%20untuk%20Pembelajaran%20Sosial%20Emosional/3.E.%20Penerapan%20Experiential%20Learning%20Dan%20PSE%20Di%20Lingkungan%20Sekolah.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">3.E. Penerapan di Lingkungan Sekolah</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Aksi Kolaboratif Komunitas Sekolah • 205 KB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- TOPIK 4 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 4 School Well-Being</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 6 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+                <!-- File 4.1 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.A.%20Pengantar%20School%20Well-Being.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">4.A. Pengantar School Well-Being</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Kesejahteraan Psikologis di Sekolah • 147 KB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.2 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.B.%20School%20Well-Being.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">4.B. School Well-Being</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Dimensi Lingkungan Belajar Positif • 139 KB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.3 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.B.2.%20LK%204.3.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">4.B.2. LK 4.3 School Well-Being</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Lembar Kerja Analisis Kasus • 168 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.4 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.C.%20Strategi%20Penerapan%20School%20Well-Being.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">4.C. Strategi Penerapan School Well-Being</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Strategi Iklim Belajar Aman &amp; Nyaman •
+                      140 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.5 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.D.%20Studi%20Kasus%20Terpadu%20Penerapan%20School%20Well-Being%20Dalam%20Pembelajaran.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">4.D. Studi Kasus Penerapan Well-Being</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Studi Kasus Dalam Praktik KBM • 161 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+                <!-- File 4.6 -->
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.E.%20School%20Well-Being%20Dalam%20Praktik%20Pembelajaran.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.02rem; margin-bottom: 4px;">4.E. Well-Being dalam Praktik Pembelajaran</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Aksi Nyata &amp; Refleksi Lapangan • 144 KB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 2: REFLEKSI PEMBELAJARAN (4C)     -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="refleksi-4c" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-brain"></i> 2. Refleksi Pembelajaran (Model 4C)
+          </h2>
+          <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">
+            Analisis reflektif mendalam terhadap mata kuliah Pembelajaran Sosial Emosional menggunakan kerangka kerja
+            <em>Connection, Challenge, Concept,</em> dan <em>Change</em> (4C).
+          </p>
+
+          <!-- Berkas PDF Refleksi Model 4C -->
+          <div class="topic-container" style="margin-bottom: 20px;">
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Refleksi Pembelajaran Model 4C</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 1 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Refleksi%20Pembelajaran%20Model%204C/LEMBAR%20KERJA%202%20(Refleksi%20Pembelajaran%20Model%204C%20Matkul%20PSE).pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon"><i class="fas fa-file-pdf"></i></div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LEMBAR KERJA 2 (Refleksi Model 4C PSE)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Refleksi Pembelajaran 4C • 170 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 3: MENGANALISIS ARTEFAK           -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="analisis-artefak" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-shapes"></i> 3. Menganalisis Artefak Pembelajaran
+          </h2>
+          <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.95rem; line-height: 1.7;">
+            Artefak pembelajaran yang saya pilih adalah <strong>1.D. Analisis & Sintesis Kerangka CASEL</strong>,
+            <strong>2.C. Studi Kasus Terpadu Karakteristik Teladan Guru</strong>, dan <strong>4.C. Strategi Penerapan
+              School Well-Being</strong>. Ketiga instrumen ini menjadi bukti otentik komitmen pendidik dalam menumbuhkan
+            kecerdasan emosional dan kesejahteraan holistik di sekolah.
+          </p>
+
+          <!-- Showcase 3 Artefak Cards with direct file links -->
+          <div class="artifact-showcase-grid">
+
+            <!-- Artefak 1 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-brain"></i> Artefak 1 (Topik 1)</span>
+              <h3 class="artifact-showcase-title">1.D. Analisis & Sintesis Kerangka CASEL</h3>
+              <p class="artifact-showcase-desc">
+                Kajian mendalam integrasi lima kompetensi sosial emosional (kesadaran diri, manajemen diri, kesadaran
+                sosial, keterampilan relasi, dan keputusan bertanggung jawab) dalam pembelajaran Informatika.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%201.%20%20Pembelajaran%20Sosial%20Emosional%20Berdasar%20Kerangka%20Collaborative%20For%20Academic,%20Social,%20and%20Emotional/1.D.%20Analisis%20dan%20Sintesis%20PSE%20.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (2.5 MB)
+                </a>
+              </div>
+            </div>
+
+            <!-- Artefak 2 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-user-check"></i> Artefak 2 (Topik 2)</span>
+              <h3 class="artifact-showcase-title">2.C. Studi Kasus Karakteristik Teladan Guru</h3>
+              <p class="artifact-showcase-desc">
+                Analisis pemecahan masalah dinamika emosional di kelas serta peneguhan peran pendidik sebagai teladan
+                hidup yang matang dalam regulasi diri, empati, dan komunikasi asertif.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%202.%20Peran%20Guru%20Sebagai%20Teladan/2.C.%20Studi%20Kasus%20Terpadu%20Karakteristik%20Guru.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (374 KB)
+                </a>
+              </div>
+            </div>
+
+            <!-- Artefak 3 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-shield-heart"></i> Artefak 3 (Topik 4)</span>
+              <h3 class="artifact-showcase-title">4.C. Strategi Penerapan School Well-Being</h3>
+              <p class="artifact-showcase-desc">
+                Perumusan langkah konkrit penciptaan kultur sekolah yang membahagiakan, aman dari perundungan, serta
+                mendukung stabilitas mental murid dan guru untuk belajar secara optimal.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester2/Pembelajaran%20sosial%20emosional/Topik%204.%20School%20Wellbeing/4.C.%20Strategi%20Penerapan%20School%20Well-Being.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (140 KB)
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Ulasan Naratif Artefak -->
+          <div
+            style="background-color: var(--bg-subtle); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border-color); line-height: 1.75; font-size: 0.95rem; color: var(--text-secondary); margin-top: 20px;">
+            <p style="margin-bottom: 14px;">
+              Ketiga artefak di atas merekam transformasi pemahaman saya bahwa keberhasilan akademik murid tidak dapat
+              dipisahkan dari kematangan sosial dan emosionalnya. Melalui telaah <em>1.D. Sintesis Kerangka CASEL</em>,
+              saya memperoleh peta konsep yang utuh untuk menanamkan nilai-nilai kesadaran diri dan empati pada setiap
+              alur pembelajaran Informatika.
+            </p>
+            <p style="margin-bottom: 14px;">
+              Studi kasus <em>2.C. Karakteristik Teladan Guru</em> menuntut saya merefleksikan kembali kesabaran dan
+              ketenangan sikap dalam menghadapi beragam karakter murid, sementara artefak <em>4.C. School
+                Well-Being</em> membekali saya panduan strategis untuk menciptakan ruang kelas yang bebas dari
+              intimidasi dan penuh kehangatan dialog.
+            </p>
+            <p style="font-weight: 600; color: var(--primary-army); margin: 0;">
+              <i class="fas fa-check-circle" style="color: var(--primary-army); margin-right: 6px;"></i>
+              Melalui artefak-artefak ini, saya meyakini bahwa guru yang hebat tidak hanya mencerdaskan daya nalar
+              murid, melainkan menuntun mereka tumbuh menjadi insan yang peduli, berdaya tahan tinggi, dan bijak dalam
+              bermasyarakat.
+            </p>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 4: MERUMUSKAN HASIL REFLEKSI      -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="hasil-refleksi" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-award"></i> 4. Merumuskan Hasil Refleksi
+          </h2>
+
+          <div class="synthesis-callout">
+            <p class="synthesis-quote">
+              "Mendidik pikiran tanpa mendidik hati bukanlah pendidikan sama sekali. Pembelajaran Sosial Emosional
+              menumbuhkan ruang kelas yang hangat, di mana setiap murid merasa aman menjadi dirinya sendiri, berani
+              mencoba hal baru, dan peduli terhadap sesama."
+            </p>
+
+            <div class="synthesis-action-box">
+              <h4 class="synthesis-action-title">
+                <i class="fas fa-bullseye"></i> Komitmen Tindak Lanjut Calon Guru Profesional:
+              </h4>
+              <p class="synthesis-action-text">
+                Sebagai pendidik, saya berkomitmen untuk <strong>mengintegrasikan 5 KSE secara konsisten dalam
+                  pembelajaran</strong>, membiasakan <strong>praktik kesadaran penuh (mindfulness) untuk mengelola stres
+                  dan fokus</strong>, membangun <strong>iklim kelas yang nir-kekerasan dan inklusif</strong>, serta
+                selalu <strong>hadir sebagai pendengar yang baik bagi peserta didik</strong>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Navigation Bar -->
+        <div class="page-navigation-bar">
+          <a href="pembelajaran-mendalam-lanjut.html" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Mata Kuliah Sebelumnya: Pembelajaran Mendalam Lanjut
+          </a>
+          <a href="ppl-mandiri-matkul.html" class="btn btn-primary">
+            Mata Kuliah Berikutnya: PPL Mandiri <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <h3>Portofolio PPG 2026</h3>
+          <p>
+            Portofolio Seminar Pendidikan Profesi Guru (PPG) Prajabatan 2026. Dikembangkan dengan dedikasi tinggi
+            mengusung tema warna <strong>Hijau Army</strong> untuk mencerminkan ketangguhan, ketenangan, dan
+            profesionalisme pendidik.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi Cepat</h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="fas fa-angle-right"></i> Beranda</a>
+            <a href="profil.html"><i class="fas fa-angle-right"></i> Profil Pendidik</a>
+            <a href="semester1.html"><i class="fas fa-angle-right"></i> Semester 1</a>
+            <a href="semester2.html"><i class="fas fa-angle-right"></i> Semester 2</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tautan Penting</h4>
+          <div class="footer-links">
+            <a href="https://ppg.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Portal PPG Kemdikbud</a>
+            <a href="https://kurikulum.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Kurikulum Merdeka</a>
+            <a href="profil.html"><i class="fas fa-external-link-alt"></i> Kontak Pendidik</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Portofolio Seminar PPG 2026. Hak Cipta Dilindungi. Dibuat dengan HTML, CSS, & JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

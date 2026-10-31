@@ -1,0 +1,597 @@
+﻿<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Ringkasan CV (Curriculum Vitae) Siti Karunia Dewi, S.Pd. - Calon Guru Profesional Informatika PPG Prajabatan 2026.">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>Curriculum Vitae (CV) | Siti Karunia Dewi, S.Pd.</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    /* CV Page Custom Styles */
+    .cv-page-wrapper {
+      padding: 120px 0 60px;
+      background-color: var(--bg-subtle, #F4F6F4);
+      min-height: 100vh;
+    }
+
+    .cv-paper {
+      background: var(--bg-card, #FFFFFF);
+      max-width: 850px;
+      margin: 0 auto;
+      border-radius: var(--radius-lg, 16px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      border: 1px solid var(--border-color, #E2E8E2);
+      overflow: hidden;
+    }
+
+    .cv-header-banner {
+      background: linear-gradient(135deg, var(--primary-army, #4F6F52), var(--primary-army-dark, #2D4030));
+      color: #FFFFFF;
+      padding: 36px 40px;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+
+    .cv-avatar-box {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 4px solid rgba(255, 255, 255, 0.85);
+      overflow: hidden;
+      flex-shrink: 0;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+      background-color: #fff;
+    }
+
+    .cv-avatar-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+    }
+
+    .cv-header-info h1 {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: #FFFFFF;
+      margin-bottom: 4px;
+      letter-spacing: -0.5px;
+    }
+
+    .cv-header-info .cv-role {
+      font-size: 1rem;
+      color: #D6E5D8;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .cv-contacts-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px 20px;
+      font-size: 0.85rem;
+      color: #EEF4EE;
+    }
+
+    .cv-contact-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .cv-contact-item i {
+      color: #A3C9A8;
+    }
+
+    .cv-body {
+      padding: 36px 40px;
+    }
+
+    .cv-section {
+      margin-bottom: 28px;
+    }
+
+    .cv-section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--primary-army, #4F6F52);
+      border-bottom: 2px solid var(--border-color, #E2E8E2);
+      padding-bottom: 8px;
+      margin-bottom: 14px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .cv-section-title i {
+      font-size: 1.1rem;
+    }
+
+    .cv-text {
+      color: var(--text-secondary, #4B5563);
+      font-size: 0.92rem;
+      line-height: 1.7;
+    }
+
+    /* Timeline in CV */
+    .cv-item {
+      margin-bottom: 16px;
+      position: relative;
+    }
+
+    .cv-item-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      margin-bottom: 3px;
+    }
+
+    .cv-item-title {
+      font-weight: 700;
+      font-size: 0.98rem;
+      color: var(--text-primary, #1F2937);
+    }
+
+    .cv-item-date {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--primary-army, #4F6F52);
+      background-color: var(--primary-army-soft, #E8EFE9);
+      padding: 2px 8px;
+      border-radius: 4px;
+    }
+
+    .cv-item-sub {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--accent-sage, #6B8E7B);
+      margin-bottom: 4px;
+    }
+
+    .cv-item-desc {
+      font-size: 0.88rem;
+      color: var(--text-secondary, #4B5563);
+      line-height: 1.6;
+    }
+
+    .cv-competence-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .cv-comp-card {
+      background: var(--bg-subtle, #F4F6F4);
+      padding: 12px 14px;
+      border-radius: 8px;
+      border-left: 3px solid var(--primary-army, #4F6F52);
+    }
+
+    .cv-comp-card h4 {
+      font-size: 0.92rem;
+      font-weight: 700;
+      color: var(--primary-army, #4F6F52);
+      margin-bottom: 4px;
+    }
+
+    .cv-comp-card p {
+      font-size: 0.84rem;
+      color: var(--text-secondary, #4B5563);
+      line-height: 1.5;
+    }
+
+    .cv-action-bar {
+      position: sticky;
+      bottom: 20px;
+      display: flex;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 30px;
+      z-index: 100;
+    }
+
+    .cv-action-bar .btn {
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+    }
+
+    /* Print Stylesheet */
+    @media print {
+      body {
+        background: #fff !important;
+        color: #000 !important;
+      }
+
+      .navbar-header,
+      footer,
+      .back-to-top,
+      .cv-action-bar,
+      .theme-toggle-btn {
+        display: none !important;
+      }
+
+      .cv-page-wrapper {
+        padding: 0 !important;
+        background: transparent !important;
+      }
+
+      .cv-paper {
+        max-width: 100% !important;
+        border: none !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+      }
+
+      .cv-header-banner {
+        background: #3B533E !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        color: #fff !important;
+        padding: 24px 30px !important;
+      }
+
+      .cv-body {
+        padding: 20px 30px !important;
+      }
+
+      .cv-item-date,
+      .cv-comp-card,
+      .skill-chip {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .cv-header-banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 24px 20px;
+      }
+
+      .cv-contacts-grid {
+        justify-content: center;
+      }
+
+      .cv-body {
+        padding: 24px 20px;
+      }
+
+      .cv-competence-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link active" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item">
+              <i class="fas fa-school"></i> PPL Mandiri
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CV CONTENT                            -->
+  <!-- ========================================== -->
+  <main class="cv-page-wrapper">
+    <div class="container">
+
+      <div class="cv-paper">
+
+        <!-- Header Banner -->
+        <div class="cv-header-banner">
+          <div class="cv-avatar-box">
+            <img src="assets/images/profile/foto-profil.png" alt="Siti Karunia Dewi, S.Pd.">
+          </div>
+          <div class="cv-header-info">
+            <h1>Siti Karunia Dewi, S.Pd.</h1>
+            <div class="cv-role">Calon Guru Profesional Informatika | PPG Calon Guru 2026</div>
+            <div class="cv-contacts-grid">
+              <div class="cv-contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>siti.karunia.2531537@students.um.ac.id</span>
+              </div>
+              <div class="cv-contact-item">
+                <i class="fas fa-location-dot"></i>
+                <span>Malang, Jawa Timur (Asal: Banyuwangi)</span>
+              </div>
+              <div class="cv-contact-item">
+                <i class="fas fa-university"></i>
+                <span>Universitas Negeri Malang</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Body Content -->
+        <div class="cv-body">
+
+          <!-- Ringkasan Profil -->
+          <div class="cv-section">
+            <h2 class="cv-section-title">
+              <i class="fas fa-user"></i> Ringkasan Profil
+            </h2>
+            <p class="cv-text">
+              Lulusan S1 Pendidikan Teknologi Informasi dari STKIP PGRI Situbondo yang saat ini sedang menempuh Program
+              Pendidikan Profesi Guru (PPG) Prajabatan di Universitas Negeri Malang. Memiliki integritas tinggi, dedikasi,
+              dan komitmen dalam menghadirkan pembelajaran Informatika yang aktif, inovatif, dan berpusat pada murid.
+              Percaya bahwa teknologi adalah jembatan untuk membuka potensi terbaik setiap peserta didik dan menciptakan
+              proses belajar yang bermakna.
+            </p>
+          </div>
+
+          <!-- Riwayat Pendidikan -->
+          <div class="cv-section">
+            <h2 class="cv-section-title">
+              <i class="fas fa-graduation-cap"></i> Riwayat Pendidikan
+            </h2>
+
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <div class="cv-item-title">Program Pendidikan Profesi Guru (PPG) Prajabatan</div>
+                <div class="cv-item-date">2026 - Sekarang</div>
+              </div>
+              <div class="cv-item-sub">LPTK Universitas Negeri Malang (UM) • Bidang Studi Pendidikan Informatika</div>
+              <p class="cv-item-desc">
+                Mendalami pedagogik modern, asesmen diagnostik, pembelajaran berdiferensiasi, serta Praktik Pengalaman
+                Lapangan (PPL) terintegrasi Kurikulum Merdeka.
+              </p>
+            </div>
+
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <div class="cv-item-title">Sarjana Pendidikan (S.Pd.) - Pendidikan Teknologi Informasi</div>
+                <div class="cv-item-date">Lulus</div>
+              </div>
+              <div class="cv-item-sub">STKIP PGRI Situbondo</div>
+              <p class="cv-item-desc">
+                Fokus studi pada integrasi teknologi informasi dalam pendidikan, rekayasa perangkat lunak edukasi,
+                dan metodologi pengajaran ilmu komputer.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pengalaman Kerja & Mengajar -->
+          <div class="cv-section">
+            <h2 class="cv-section-title">
+              <i class="fas fa-briefcase"></i> Pengalaman Kerja & Mengajar
+            </h2>
+
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <div class="cv-item-title">Praktik Pengalaman Lapangan (PPL Terbimbing)</div>
+                <div class="cv-item-date">2026</div>
+              </div>
+              <div class="cv-item-sub">SMP Negeri 18 Malang</div>
+              <p class="cv-item-desc">
+                Melaksanakan asistensi mengajar, merancang Modul Ajar dan LKPD Informatika Siklus 1, 2, dan 3 berbasis
+                Understanding by Design (UbD) dan pembelajaran berdiferensiasi.
+              </p>
+            </div>
+
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <div class="cv-item-title">Tenaga Pengajar (Guru Informatika)</div>
+                <div class="cv-item-date">Pengalaman Kerja</div>
+              </div>
+              <div class="cv-item-sub">SMK Farida Adz-dzikraa</div>
+              <p class="cv-item-desc">
+                Mengampu mata pelajaran kejuruan teknologi informasi, membimbing praktik komputer, dan memotivasi murid
+                untuk menguasai keterampilan digital.
+              </p>
+            </div>
+
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <div class="cv-item-title">Tutor Pembelajaran</div>
+                <div class="cv-item-date">Pengalaman Kerja</div>
+              </div>
+              <div class="cv-item-sub">Bimbel Smart Solution</div>
+              <p class="cv-item-desc">
+                Memberikan pendampingan belajar intensif dan pendekatan personal sesuai kebutuhan dan kecepatan belajar
+                masing-masing siswa.
+              </p>
+            </div>
+
+            <div class="cv-item">
+              <div class="cv-item-head">
+                <div class="cv-item-title">Staff Tata Usaha & Magang Kerja Internal</div>
+                <div class="cv-item-date">Pengalaman Administrasi</div>
+              </div>
+              <div class="cv-item-sub">STKIP PGRI Situbondo</div>
+              <p class="cv-item-desc">
+                Mengelola administrasi akademik, koordinasi persuratan, serta membangun kemampuan komunikasi dan
+                tanggung jawab kerja institusional.
+              </p>
+            </div>
+          </div>
+
+          <!-- Kompetensi Pendidik -->
+          <div class="cv-section">
+            <h2 class="cv-section-title">
+              <i class="fas fa-layer-group"></i> Kompetensi Guru
+            </h2>
+            <div class="cv-competence-grid">
+              <div class="cv-comp-card">
+                <h4><i class="fas fa-shapes"></i> Pedagogik</h4>
+                <p>Memahami karakteristik murid, merancang modul ajar berdiferensiasi, asesmen formatif-sumatif, dan evaluasi berkelanjutan.</p>
+              </div>
+              <div class="cv-comp-card">
+                <h4><i class="fas fa-laptop-code"></i> Profesional</h4>
+                <p>Menguasai materi Informatika (Computational Thinking, TIK, Algoritma) serta aplikasinya dalam kehidupan nyata.</p>
+              </div>
+              <div class="cv-comp-card">
+                <h4><i class="fas fa-comments"></i> Sosial</h4>
+                <p>Membangun komunikasi santun, positif, dan kolaboratif bersama murid, rekan guru, orang tua, dan sekolah.</p>
+              </div>
+              <div class="cv-comp-card">
+                <h4><i class="fas fa-heart"></i> Kepribadian</h4>
+                <p>Disiplin, bertanggung jawab, sabar, berintegritas, adaptif, serta berjiwa pembelajar sepanjang hayat.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Karakter Unggulan -->
+          <div class="cv-section">
+            <h2 class="cv-section-title">
+              <i class="fas fa-award"></i> Karakter Pendidik
+            </h2>
+            <div class="skills-wrapper">
+              <span class="skill-chip"><i class="fas fa-clipboard-check"></i> Disiplin dan bertanggung jawab</span>
+              <span class="skill-chip"><i class="fas fa-heart"></i> Sabar dan peduli terhadap murid</span>
+              <span class="skill-chip"><i class="fas fa-arrows-rotate"></i> Adaptif terhadap perubahan</span>
+              <span class="skill-chip"><i class="fas fa-star"></i> Mampu menjadi teladan yang baik</span>
+              <span class="skill-chip"><i class="fas fa-graduation-cap"></i> Semangat belajar sepanjang hayat</span>
+              <span class="skill-chip"><i class="fas fa-users"></i> Komunikatif dan kolaboratif</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Action Bar -->
+      <div class="cv-action-bar no-print">
+        <a href="profil.html" class="btn btn-secondary">
+          <i class="fas fa-arrow-left"></i> Kembali ke Profil
+        </a>
+        <button onclick="window.print()" class="btn btn-primary" id="printCvBtn">
+          <i class="fas fa-print"></i> Cetak / Simpan PDF
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom" style="border: none; padding-top: 0;">
+        <p>&copy; 2026 E-Portofolio PPG - Siti Karunia Dewi, S.Pd. Universitas Negeri Malang.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>

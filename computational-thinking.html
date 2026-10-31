@@ -1,0 +1,857 @@
+﻿<!DOCTYPE html>
+<html lang="id" data-theme="light">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Refleksi dan Analisis Artefak Mata Kuliah Computational Thinking - Portofolio Seminar PPG 2026 oleh Siti Karunia Dewi.">
+  <meta name="keywords"
+    content="Computational Thinking, CT, Berpikir Komputasional, Dekomposisi, Abstraksi, Algoritma, Bebras, Refleksi 4C, PPG 2026, Siti Karunia Dewi">
+  <meta name="author" content="Siti Karunia Dewi">
+  <title>E-Portofolio Siti Karunia Dewi | PPG Calon Guru 2026</title>
+
+  <!-- Google Fonts: Outfit & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- ========================================== -->
+  <!-- HEADER & NAVIGATION BAR                    -->
+  <!-- ========================================== -->
+  <header class="navbar-header" id="navbarHeader">
+    <div class="container navbar-container">
+      <!-- Brand Logo -->
+      <a href="index.html" class="brand-logo" id="brandLogo">
+        <div class="brand-icon">
+          <img src="assets/images/profile/Icon.png" alt="Siti Karunia Dewi">
+        </div>
+        <div class="brand-text" style="display: flex; flex-direction: column; line-height: 1.2;">
+          <span style="font-size: 1.1rem; font-weight: bold; color: #333;">E-Portofolio</span>
+          <span style="font-size: 0.85rem; color: var(--accent-sage, #6B8E7B); font-weight: 500;">Siti Karunia
+            Dewi</span>
+        </div>
+      </a>
+
+      <!-- Main Navigation Menu -->
+      <nav class="nav-menu" id="navMenu">
+        <div class="nav-item">
+          <a href="index.html" class="nav-link" id="navBeranda">
+            <i class="fas fa-home"></i> Beranda
+          </a>
+        </div>
+        <div class="nav-item">
+          <a href="profil.html" class="nav-link" id="navProfil">
+            <i class="fas fa-user-tie"></i> Profil
+          </a>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester1">
+          <a href="semester1.html" class="nav-link dropdown-toggle active" id="navSemester1">
+            <i class="fas fa-book-bookmark"></i> Semester 1 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="filosofi-pendidikan.html" class="dropdown-item">
+              <i class="fas fa-book-open"></i> Filosofi Pendidikan dan Pendidikan Nilai
+            </a>
+            <a href="pemahaman-peserta-didik.html" class="dropdown-item">
+              <i class="fas fa-user-graduate"></i> Pemahaman tentang Peserta Didik dan Pembelajaran
+            </a>
+            <a href="pembelajaran-mendalam.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Dasar
+            </a>
+            <a href="pola-pikir-bertumbuh.html" class="dropdown-item">
+              <i class="fas fa-brain"></i> Pola Pikir Bertumbuh (Growth Mindset)
+            </a>
+            <a href="computational-thinking.html" class="dropdown-item active">
+              <i class="fas fa-laptop-code"></i> Computational Thinking
+            </a>
+            <a href="mk-ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownSemester2">
+          <a href="semester2.html" class="nav-link dropdown-toggle" id="navSemester2">
+            <i class="fas fa-award"></i> Semester 2 <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="etika-profesionalisme-guru.html" class="dropdown-item">
+              <i class="fas fa-user-shield"></i> Etika Dan Profesionalisme Guru
+            </a>
+            <a href="pembelajaran-mendalam-lanjut.html" class="dropdown-item">
+              <i class="fas fa-layer-group"></i> Pembelajaran Mendalam dan Asesmen Lanjut
+            </a>
+            <a href="pembelajaran-sosial-emosional.html" class="dropdown-item">
+              <i class="fas fa-heart"></i> Pembelajaran Sosial Emosional
+            </a>
+            <a href="ppl-mandiri-matkul.html" class="dropdown-item">
+              <i class="fas fa-school"></i> Praktik Pengalaman Lapangan (PPL) Mandiri
+            </a>
+            <a href="projek-kepemimpinan.html" class="dropdown-item">
+              <i class="fas fa-people-group"></i> Projek Kepemimpinan
+            </a>
+            <a href="seminar-ppg.html" class="dropdown-item">
+              <i class="fas fa-graduation-cap"></i> Seminar Pendidikan Profesi Guru
+            </a>
+          </div>
+        </div>
+        <div class="nav-item dropdown" id="dropdownPpl">
+          <a href="ppl.html" class="nav-link dropdown-toggle" id="navPpl">
+            <i class="fas fa-chalkboard-user"></i> PPL <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="ppl-terbimbing.html" class="dropdown-item">
+              <i class="fas fa-chalkboard-user"></i> PPL Terbimbing
+            </a>
+            <a href="ppl-mandiri.html" class="dropdown-item">
+              <i class="fas fa-school"></i> PPL Mandiri
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <!-- Light / Dark Theme Switcher -->
+        <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Ganti Tema">
+          <i class="fas fa-moon"></i>
+        </button>
+
+        <!-- Mobile Drawer Toggler -->
+        <button class="mobile-toggle-btn" id="mobileToggleBtn" aria-label="Menu Navigasi Mobile">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ========================================== -->
+  <!-- MAIN CONTENT AREA                          -->
+  <!-- ========================================== -->
+  <main class="page-content">
+    <section class="page-section">
+      <div class="container">
+
+        <!-- Breadcrumb Navigation -->
+        <div class="breadcrumb-nav">
+          <a href="index.html"><i class="fas fa-home"></i> Beranda</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <a href="semester1.html"><i class="fas fa-book-bookmark"></i> Semester 1</a>
+          <span class="separator"><i class="fas fa-chevron-right"></i></span>
+          <span class="current">Computational Thinking</span>
+        </div>
+
+        <!-- Detail Header Card -->
+        <div class="detail-header-card">
+          <span class="section-tag"><i class="fas fa-laptop-code"></i> Mata Kuliah Inti - MK 05</span>
+          <h1 class="section-title" style="font-size: 2.2rem; margin-top: 10px; margin-bottom: 12px;">
+            Computational Thinking
+          </h1>
+          <p style="font-size: 1.05rem; max-width: 1100px; line-height: 1.7; text-align: justify;">
+            Sebagai calon guru, mata kuliah ini membantu saya memahami cara berpikir yang logis, sistematis, dan kreatif
+            dalam menyelesaikan masalah. Saya dapat menerapkan Computational Thinking dalam pembelajaran agar murid
+            mampu berpikir kritis dan menemukan solusi secara mandiri.
+          </p>
+
+          <div class="detail-meta-chips">
+            <div class="meta-chip">
+              <i class="fas fa-user-tie"></i>
+              <span>Penyusun: Siti Karunia Dewi</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-graduation-cap"></i>
+              <span>PPG Pendidikan Informatika</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-university"></i>
+              <span>Universitas Negeri Malang</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-clock"></i>
+              <span>Bobot: 2 SKS</span>
+            </div>
+            <div class="meta-chip">
+              <i class="fas fa-cubes"></i>
+              <span>Kerangka Refleksi: Model 4C</span>
+            </div>
+          </div>
+
+
+        </div>
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 1: REPOSITORI BERKAS DOKUMEN      -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="dokumen-tugas" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <div
+            style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; flex-wrap: wrap; gap: 10px;">
+            <div>
+              <h2 class="block-title" style="margin-bottom: 4px;">
+                <i class="fas fa-folder-open"></i> 1. Dokumen Tugas Mata Kuliah (Per Topik)
+              </h2>
+              <p style="color: var(--text-secondary); font-size: 0.92rem;">
+                Daftar lengkap berkas lembar kerja kelompok/individu, analisis kasus Bebras, integrasi CT dalam modul
+                ajar,
+                dan Portofolio CT Completed.
+              </p>
+            </div>
+            <span class="meta-chip"
+              style="background-color: var(--primary-army-soft); color: var(--primary-army); font-weight: 700;">
+              <i class="fas fa-files"></i> Total 19 Berkas
+            </span>
+          </div>
+
+          <div class="topic-container">
+
+            <!-- TOPIK 1 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 1 Pendalaman Pemahaman Computational Thinking</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 4 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+
+                <!-- File 1.1 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%201/Lembar%20kerja%201%20(individu)_%20Pengenalan%20CT%20dalam%20kehidupan%20sehari-hari.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 1. Pengenalan CT Sehari-hari</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Tugas Individu • 169 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 1.2 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%201/Lembar%20kerja%202%20(kelompok)_%20Penyelesaian%20masalah%20penyusunan%20dokumen.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 2. Penyelesaian Masalah Dokumen</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Tugas Kelompok • 77 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 1.3 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%201/Lembar%20kerja%203%20(kelompok)_%20Umpan%20balik%20presentasi%20penyelesaian%20masalah%20penyusunan%20dokumen.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 3. Umpan Balik Presentasi</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Umpan Balik Sejawat • 80 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 1.4 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%201/Lembar%20kerja%204%20(individu)%20refleksi%20pemahaman%20CT%20dan%20penerapannya.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 4. Refleksi Pemahaman CT</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Refleksi Kritis • 81 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- TOPIK 2 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 2 CT dalam Problem Solving Persoalan Sehari-hari</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 1 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <!-- File 2.1 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%202/Lembar%20kerja%205%20(kelompok)_%20Penerapan%20CT%20dalam%20menyelesaian%20persoalan%20kehidupan%20sehari-hari%20menggunakan%20soal%20Bebras.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-puzzle-piece"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 5. Penerapan CT &amp; Soal Bebras</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Analisis Kasus Bebras • 320 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- TOPIK 3 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 3 CT dalam Problem Solving pada Literasi dan Numerasi</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 2 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <!-- File 3.1 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%203/Lembar%20Kerja%206%20(Kelompok).pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 6 (Kelompok)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Telaah Kurikulum CT • 290 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 3.2 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%203/Lembar%20Kerja%207%20(Kelompok).pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 7 (Kelompok)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Pemetaan Aktivitas CT • 212 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- TOPIK 4 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 4 CT dalam Kurikulum</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 3 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <!-- File 4.1 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%204/Lembar%20Kerja%208.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 8</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Analisis Algoritma • 155 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 4.2 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%204/Lembar%20Kerja%209.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 9</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Dekomposisi Kasus • 152 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 4.3 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%204/Lembar%20Kerja%2010_Siti%20Karunia%20Dewi.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 10</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Tugas Individu • 146 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- TOPIK 5 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 5 CT dan Projek</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 4 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+
+                <!-- File 5.1 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%205/Lembar%20Kerja%2011%20(Kelompok).docx.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 11 (Kelompok)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Modul Proyek CT • 281 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 5.2 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%205/Lembar%20Kerja%2012%20(Kelompok).docx.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 12 (Kelompok)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Desain Modul Terpadu • 357 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 5.3 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%205/Lembar%20Kerja%2013%20(Kelompok).pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 13 (Kelompok)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Uji Coba Modul • 163 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 5.4 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%205/Lembar%20Kerja%2014_Catatan%20Perbaikan%20Presentasi.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 14. Catatan Perbaikan Presentasi</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Evaluasi Presentasi • 134 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- TOPIK 6 -->
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Topik 6 Integrasi CT dalam Mata Pelajaran</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 4 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px;">
+
+                <!-- File 6.1 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%206/Lembar%20Kerja%2015_Siti%20Karunia%20Dewi_253153744069.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 15</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Modul Ajar Informatika • 222 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 6.2 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%206/Lembar%20Kerja%2016%20(Kelompok)_Siti%20Karunia%20Dewi_253153744069.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">Lembar Kerja 16 (Kelompok)</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Telaah Sejawat Modul • 169 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 6.3 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%206/LK%2017_Siti%20Karunia%20dewi_253153744069.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 17. Refleksi Modul Ajar CT</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Refleksi Implementasi • 132 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+                <!-- File 6.4 -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%206/LK%2018_Siti%20Karunia%20Dewi_253153744069.pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 18. Rencana Tindak Lanjut</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Aksi Nyata Guru • 117 KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+            <!-- TOPIK 7 (UAS - MASTERPIECE / Artefak Unggulan) -->
+            <div class="topic-card"
+              style="border-color: var(--primary-army); background: linear-gradient(180deg, var(--bg-surface), var(--primary-army-soft));">
+              <div class="topic-header">
+                <span class="topic-badge"
+                  style="background: linear-gradient(135deg, var(--primary-army-dark), var(--primary-army));">Topik 7
+                  Restrukturisasi Portofolio</span>
+                <span class="topic-file-count"><i class="fas fa-award"></i> 1 Berkas PDF Lengkap</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <!-- File 7.1 (UAS Portofolio) -->
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%207%20(UAS)/Siti%20Karunia%20Dewi_253153744069_PORTOFOLIO%20CT%20COMPLETED.pdf"
+                  target="_blank" class="highlight-card"
+                  style="text-decoration: none; border-color: var(--primary-army); box-shadow: 0 4px 16px rgba(45, 90, 61, 0.15);">
+                  <div class="highlight-icon" style="background: var(--primary-army); color: #ffffff;">
+                    <i class="fas fa-award"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.08rem; margin-bottom: 4px; font-weight: 700;">Portofolio CT Completed (UAS)
+                    </h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">
+                      <i class="fas fa-star" style="color: var(--accent-gold);"></i> Dokumen Portofolio Utuh • 2.2 MB
+                    </p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 2: REFLEKSI PEMBELAJARAN (4C)     -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="refleksi-4c" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-brain"></i> 2. Refleksi Pembelajaran (Model 4C)
+          </h2>
+          <p style="color: var(--text-secondary); margin-bottom: 24px; font-size: 0.95rem;">
+            Berkas refleksi mendalam menggunakan kerangka kerja <em>Connection, Challenge, Concept,</em> dan
+            <em>Change</em> (4C).
+          </p>
+
+          <div class="topic-container">
+            <div class="topic-card">
+              <div class="topic-header">
+                <span class="topic-badge">Refleksi Pembelajaran Model 4C</span>
+                <span class="topic-file-count"><i class="fas fa-file-pdf"></i> 1 Berkas PDF</span>
+              </div>
+              <div class="highlights-bar"
+                style="margin-top: 16px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;">
+
+                <a href="assets/docs/semester1/Computational%20Thinking/Refleksi%20Pembelajaran%20Model%204C/LEMBAR%20KERJA%202%20(Refleksi%20Pembelajaran%20Model%204C%20Matkul%20CT).pdf"
+                  target="_blank" class="highlight-card" style="text-decoration: none;">
+                  <div class="highlight-icon">
+                    <i class="fas fa-brain"></i>
+                  </div>
+                  <div class="highlight-info" style="flex: 1;">
+                    <h3 style="font-size: 1.05rem; margin-bottom: 4px;">LK 2. Refleksi 4C Matkul CT</h3>
+                    <p style="font-size: 0.85rem; opacity: 0.9; margin: 0;">Connection, Challenge, Concept, Change • 160
+                      KB</p>
+                  </div>
+                  <div
+                    style="align-self: center; color: rgba(255, 255, 255, 0.75); font-size: 0.95rem; flex-shrink: 0;">
+                    <i class="fas fa-arrow-up-right-from-square"></i>
+                  </div>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 3: MENGANALISIS ARTEFAK           -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="analisis-artefak" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-shapes"></i> 3. Menganalisis Artefak Pembelajaran
+          </h2>
+          <p style="color: var(--text-secondary); margin-bottom: 16px; font-size: 0.95rem; line-height: 1.7;">
+            Artefak pembelajaran yang saya pilih adalah <strong>Penerapan CT dalam Soal Bebras</strong>, <strong>Desain
+              Modul
+              Ajar Terpadu CT</strong>, dan <strong>Integrasi CT dalam Mata Pelajaran (Lembar Kerja 15)</strong>. Ketiga
+            instrumen
+            ini menjadi bukti penguasaan integrasi berpikir komputasional dalam praksis pendidikan.
+          </p>
+
+          <!-- Showcase 3 Artefak Cards with direct file links -->
+          <div class="artifact-showcase-grid">
+
+            <!-- Artefak 1 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-puzzle-piece"></i> Artefak 1 (Topik 2)</span>
+              <h3 class="artifact-showcase-title">Penerapan CT & Soal Bebras</h3>
+              <p class="artifact-showcase-desc">
+                Analisis mendalam 4 fondasi CT dalam memecahkan soal tantangan Bebras kontekstual, melatih kemampuan
+                abstraksi
+                dan dekomposisi data secara efisien.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%202/Lembar%20kerja%205%20(kelompok)_%20Penerapan%20CT%20dalam%20menyelesaian%20persoalan%20kehidupan%20sehari-hari%20menggunakan%20soal%20Bebras.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (320 KB)
+                </a>
+              </div>
+            </div>
+
+            <!-- Artefak 2 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-file-signature"></i> Artefak 2 (Topik 5)</span>
+              <h3 class="artifact-showcase-title">Desain Modul Ajar Terpadu CT</h3>
+              <p class="artifact-showcase-desc">
+                Perancangan RPP/Modul Ajar Informatika yang menyisipkan pilar CT secara eksplisit pada setiap tahapan
+                kegiatan apersepsi, inkuiri, dan evaluasi hasil belajar.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%205/Lembar%20Kerja%2012%20(Kelompok).docx.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (357 KB)
+                </a>
+              </div>
+            </div>
+
+            <!-- Artefak 3 -->
+            <div class="artifact-showcase-card">
+              <span class="artifact-showcase-badge"><i class="fas fa-laptop-code"></i> Artefak 3 (Topik 6)</span>
+              <h3 class="artifact-showcase-title">Integrasi CT dalam Mata Pelajaran</h3>
+              <p class="artifact-showcase-desc">
+                Penerapan konkret 4 fondasi berpikir komputasional dalam modul ajar Informatika, merancang skenario KBM
+                yang melatih pemecahan masalah algoritmis secara terstruktur dan kontekstual.
+              </p>
+              <div style="margin-top: auto; padding-top: 14px;">
+                <a href="assets/docs/semester1/Computational%20Thinking/Tugas%20Mata%20Kuliah/Topik%206/Lembar%20Kerja%2015_Siti%20Karunia%20Dewi_253153744069.pdf"
+                  target="_blank" class="btn-doc-view" style="width: 100%;">
+                  <i class="fas fa-file-pdf" style="color: #dc3545;"></i> Buka Berkas PDF (222 KB)
+                </a>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Ulasan Naratif Artefak -->
+          <div
+            style="background-color: var(--bg-subtle); padding: 24px; border-radius: var(--radius-md); border: 1px solid var(--border-color); line-height: 1.75; font-size: 0.95rem; color: var(--text-secondary);">
+            <p style="margin-bottom: 14px;">
+              Ketiga artefak yang dipilih di atas mencerminkan penguasaan bertahap konsep <em>Computational
+                Thinking</em> dari
+              <strong>pemecahan masalah individual/kelompok</strong>, <strong>desain pedagogis di kelas</strong>, hingga
+              <strong>integrasi nyata dalam mata pelajaran</strong>. Melalui artefak <em>Penerapan CT & Soal
+                Bebras</em>, saya
+              membuktikan kemampuan mengidentifikasi pilar CT dalam skenario studi kasus sehari-hari tanpa harus selalu
+              bergantung pada perangkat komputer (<em>unplugged CT</em>).
+            </p>
+            <p style="margin-bottom: 14px;">
+              Pada artefak <em>Desain Modul Ajar Terpadu CT</em>, saya menerapkan prinsip integrasi kurikuler di mana
+              indikator
+              CT tidak dijadikan beban materi tambahan, melainkan menjadi strategi cara belajar murid saat
+              mengeksplorasi
+              topik-topik Informatika. Selanjutnya, artefak <em>Integrasi CT dalam Mata Pelajaran (LK 15)</em>
+              membuktikan kesiapan
+              saya dalam mengimplementasikan sintaks pembelajaran Informatika yang secara terarah membangun kemampuan
+              abstraksi,
+              dekomposisi, pengenalan pola, dan algoritma pada peserta didik.
+            </p>
+            <p style="font-weight: 600; color: var(--primary-army);">
+              <i class="fas fa-check-circle" style="color: var(--primary-army); margin-right: 6px;"></i>
+              Bukti-bukti artefak ini mempertegas kompetensi saya sebagai pendidik Informatika yang siap mencetak
+              generasi
+              muda berdaya saing global dengan logika berpikir komputasional yang tajam.
+            </p>
+          </div>
+        </div>
+
+        <!-- ---------------------------------------- -->
+        <!-- BAGIAN 4: MERUMUSKAN HASIL REFLEKSI      -->
+        <!-- ---------------------------------------- -->
+        <div class="content-block" id="hasil-refleksi" style="margin-bottom: 35px; scroll-margin-top: 100px;">
+          <h2 class="block-title">
+            <i class="fas fa-award"></i> 4. Merumuskan Hasil Refleksi
+          </h2>
+
+          <div class="synthesis-callout">
+            <p class="synthesis-quote">
+              "Computational Thinking bukan sekadar mengajari anak cara menggunakan komputer, melainkan melatih pikiran
+              manusia
+              untuk berpikir seperti arsitek logika: mampu mengurai kerumitan menjadi bagian sederhana, memilah inti
+              masalah,
+              mengenali pola tersembunyi, dan merumuskan langkah solusi yang presisi."
+            </p>
+
+            <div class="synthesis-action-box">
+              <h4 class="synthesis-action-title">
+                <i class="fas fa-bullseye"></i> Komitmen Tindak Lanjut Calon Guru Profesional:
+              </h4>
+              <p class="synthesis-action-text">
+                Sebagai calon pendidik Informatika, saya berkomitmen untuk <strong>mengintegrasikan 4 pilar CT secara
+                  eksplisit
+                  dalam setiap rancangan KBM</strong>, mengembangkan aktivitas belajar <strong>unplugged & plugged yang
+                  kontekstual</strong>, membudayakan kebiasaan <strong>berpikir kritis dan algoritmik</strong> pada
+                siswa.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Page Navigation Bar -->
+        <div class="page-navigation-bar">
+          <a href="pola-pikir-bertumbuh.html" class="btn btn-secondary">
+            <i class="fas fa-arrow-left"></i> Mata Kuliah Sebelumnya: Pola Pikir Bertumbuh
+          </a>
+          <a href="mk-ppl-terbimbing.html" class="btn btn-primary">
+            Mata Kuliah Berikutnya: PPL Terbimbing <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Floating Back to Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Kembali ke Atas">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- ========================================== -->
+  <!-- FOOTER                                     -->
+  <!-- ========================================== -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <h3>Portofolio PPG 2026</h3>
+          <p>
+            Portofolio Seminar Pendidikan Profesi Guru (PPG) Prajabatan 2026. Dikembangkan dengan dedikasi tinggi
+            mengusung tema warna <strong>Hijau Army</strong> untuk mencerminkan ketangguhan, ketenangan, dan
+            profesionalisme pendidik.
+          </p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigasi Cepat</h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="fas fa-angle-right"></i> Beranda</a>
+            <a href="profil.html"><i class="fas fa-angle-right"></i> Profil Pendidik</a>
+            <a href="semester1.html"><i class="fas fa-angle-right"></i> Semester 1</a>
+            <a href="semester2.html"><i class="fas fa-angle-right"></i> Semester 2</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Tautan Penting</h4>
+          <div class="footer-links">
+            <a href="https://ppg.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Portal PPG Kemdikbud</a>
+            <a href="https://kurikulum.kemdikbud.go.id/" target="_blank" rel="noopener"><i
+                class="fas fa-external-link-alt"></i> Kurikulum Merdeka</a>
+            <a href="profil.html"><i class="fas fa-external-link-alt"></i> Kontak Pendidik</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Portofolio Seminar PPG 2026. Hak Cipta Dilindungi. Dibuat dengan HTML, CSS, & JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Custom JavaScript File -->
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
